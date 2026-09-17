@@ -1,0 +1,2001 @@
+patient_id,age,gender,blood_pressure,glucose,previous_visits,diagnosis,readmitted
+1,32,Male,125,132,3,Hypertension,0
+2,29,Female,94,77,1,Hypertension,0
+3,21,Male,173,209,6,Hypertension,1
+4,53,Male,110,178,5,Heart Disease,1
+5,61,Male,101,167,1,Heart Disease,1
+6,51,Male,148,207,1,Asthma,0
+7,55,Female,163,119,1,Diabetes,0
+8,55,Male,119,95,6,Heart Disease,1
+9,64,Male,137,160,3,Heart Disease,1
+10,27,Male,158,132,2,Asthma,0
+11,46,Female,97,128,0,Heart Disease,0
+12,26,Male,162,150,3,Asthma,0
+13,76,Male,123,105,3,Pneumonia,0
+14,72,Female,136,126,2,Pneumonia,0
+15,24,Male,109,110,6,Pneumonia,0
+16,66,Female,157,134,8,Diabetes,1
+17,32,Female,172,157,1,Heart Disease,0
+18,76,Male,123,198,2,Pneumonia,1
+19,56,Male,109,165,2,Pneumonia,1
+20,85,Male,166,152,7,Diabetes,1
+21,64,Female,120,84,3,Pneumonia,1
+22,28,Female,98,206,2,Hypertension,0
+23,39,Female,157,178,3,Pneumonia,1
+24,43,Female,141,165,7,Pneumonia,1
+25,49,Male,98,156,0,Pneumonia,0
+26,46,Male,99,85,3,Diabetes,0
+27,60,Male,155,130,4,Asthma,0
+28,34,Female,121,191,6,Hypertension,0
+29,73,Female,144,175,7,Diabetes,1
+30,30,Male,141,156,1,Hypertension,0
+31,75,Male,144,116,4,Asthma,1
+32,27,Female,160,95,0,Pneumonia,1
+33,29,Male,111,174,7,Asthma,0
+34,69,Male,111,167,0,Asthma,0
+35,76,Female,144,212,7,Hypertension,1
+36,45,Male,164,208,0,Heart Disease,0
+37,79,Male,97,200,1,Hypertension,0
+38,26,Male,141,100,3,Pneumonia,1
+39,28,Female,174,219,8,Heart Disease,1
+40,44,Female,120,137,6,Hypertension,0
+41,56,Female,130,88,0,Asthma,0
+42,30,Male,158,124,8,Heart Disease,1
+43,62,Male,121,164,4,Hypertension,1
+44,56,Male,175,211,4,Diabetes,1
+45,35,Female,104,97,8,Hypertension,0
+46,44,Female,116,137,8,Asthma,0
+47,24,Male,171,178,4,Diabetes,1
+48,34,Female,110,183,8,Asthma,1
+49,32,Male,178,108,8,Diabetes,1
+50,36,Female,106,80,4,Heart Disease,1
+51,23,Female,116,133,1,Heart Disease,0
+52,70,Male,120,111,2,Asthma,0
+53,60,Female,175,133,4,Hypertension,1
+54,31,Female,94,190,3,Hypertension,0
+55,76,Female,129,128,3,Diabetes,0
+56,69,Female,125,87,4,Heart Disease,1
+57,69,Female,93,99,4,Hypertension,1
+58,51,Male,103,181,5,Heart Disease,1
+59,83,Male,139,217,3,Heart Disease,0
+60,73,Male,156,207,3,Heart Disease,1
+61,60,Female,174,101,4,Pneumonia,1
+62,70,Female,141,145,8,Hypertension,1
+63,66,Male,168,215,4,Asthma,1
+64,18,Female,126,123,6,Pneumonia,1
+65,59,Female,146,183,3,Pneumonia,1
+66,39,Male,126,201,5,Diabetes,1
+67,48,Female,118,120,2,Diabetes,0
+68,78,Male,148,176,3,Asthma,1
+69,49,Male,173,71,1,Asthma,0
+70,84,Female,96,212,3,Diabetes,0
+71,77,Female,146,199,6,Pneumonia,1
+72,38,Female,147,136,3,Heart Disease,1
+73,84,Female,170,131,4,Asthma,1
+74,54,Male,124,155,5,Pneumonia,0
+75,37,Male,139,109,3,Diabetes,0
+76,60,Female,143,85,3,Asthma,0
+77,20,Female,151,71,5,Heart Disease,1
+78,71,Male,152,126,4,Asthma,1
+79,67,Female,175,173,2,Asthma,1
+80,21,Female,165,214,0,Diabetes,1
+81,35,Female,113,82,4,Asthma,0
+82,76,Female,133,167,4,Asthma,1
+83,28,Female,92,208,0,Heart Disease,0
+84,26,Male,93,133,3,Diabetes,0
+85,48,Male,150,99,3,Asthma,0
+86,65,Male,167,99,2,Heart Disease,1
+87,21,Female,163,166,6,Hypertension,1
+88,49,Male,179,147,1,Pneumonia,1
+89,62,Female,174,164,1,Pneumonia,1
+90,19,Female,152,97,6,Heart Disease,1
+91,76,Male,145,115,8,Heart Disease,1
+92,79,Female,145,138,5,Hypertension,1
+93,29,Female,147,132,7,Pneumonia,1
+94,66,Female,93,196,5,Hypertension,1
+95,63,Female,133,141,4,Pneumonia,1
+96,42,Male,120,174,7,Pneumonia,1
+97,78,Female,147,74,1,Heart Disease,1
+98,49,Female,174,218,5,Asthma,1
+99,62,Female,160,154,5,Asthma,1
+100,50,Male,105,119,5,Diabetes,0
+101,41,Male,117,193,4,Pneumonia,1
+102,85,Female,102,119,4,Hypertension,1
+103,56,Male,180,206,2,Heart Disease,0
+104,24,Female,179,102,7,Diabetes,1
+105,54,Female,151,182,5,Hypertension,1
+106,50,Female,104,86,6,Asthma,0
+107,24,Male,109,214,4,Diabetes,1
+108,33,Female,167,127,8,Asthma,1
+109,74,Female,165,179,4,Pneumonia,1
+110,30,Male,170,124,4,Diabetes,0
+111,40,Male,110,70,6,Asthma,0
+112,78,Female,94,129,4,Heart Disease,1
+113,76,Male,177,129,4,Pneumonia,1
+114,43,Female,104,209,3,Hypertension,0
+115,36,Male,97,112,4,Pneumonia,1
+116,54,Female,105,189,4,Asthma,1
+117,82,Female,146,90,0,Asthma,1
+118,50,Male,101,128,0,Heart Disease,0
+119,40,Female,156,183,4,Hypertension,1
+120,73,Female,101,190,5,Asthma,1
+121,31,Male,132,175,7,Heart Disease,1
+122,69,Male,148,92,5,Heart Disease,1
+123,69,Male,174,208,7,Asthma,1
+124,84,Female,169,197,7,Diabetes,1
+125,34,Female,146,194,1,Diabetes,1
+126,48,Male,129,211,0,Pneumonia,0
+127,46,Male,149,100,2,Asthma,0
+128,55,Female,143,193,7,Hypertension,1
+129,36,Female,114,200,2,Diabetes,0
+130,71,Female,154,138,0,Heart Disease,1
+131,80,Male,147,207,7,Heart Disease,1
+132,66,Female,131,118,3,Pneumonia,0
+133,70,Male,130,191,6,Asthma,1
+134,37,Female,94,102,8,Pneumonia,0
+135,30,Female,102,204,7,Diabetes,1
+136,70,Male,99,190,4,Heart Disease,1
+137,68,Male,132,206,6,Heart Disease,1
+138,80,Male,169,87,3,Heart Disease,1
+139,29,Female,102,95,7,Hypertension,0
+140,21,Male,131,84,4,Heart Disease,0
+141,36,Male,157,175,2,Hypertension,0
+142,66,Male,153,219,2,Hypertension,1
+143,50,Female,122,72,7,Heart Disease,1
+144,38,Male,146,158,4,Asthma,1
+145,76,Female,115,168,7,Diabetes,1
+146,63,Female,179,145,0,Asthma,0
+147,24,Female,126,128,5,Hypertension,0
+148,50,Male,170,94,0,Heart Disease,1
+149,22,Female,106,93,4,Heart Disease,1
+150,40,Male,106,208,5,Pneumonia,1
+151,52,Male,122,193,4,Heart Disease,1
+152,77,Male,108,127,6,Pneumonia,1
+153,68,Male,123,207,1,Asthma,0
+154,51,Female,171,165,1,Hypertension,0
+155,59,Male,172,86,7,Heart Disease,1
+156,32,Male,95,79,4,Asthma,0
+157,48,Male,139,186,5,Pneumonia,1
+158,37,Female,173,95,7,Pneumonia,1
+159,53,Male,178,164,3,Asthma,0
+160,48,Female,102,164,8,Heart Disease,1
+161,53,Male,105,186,1,Hypertension,0
+162,20,Male,132,132,2,Pneumonia,0
+163,44,Male,119,154,2,Pneumonia,0
+164,36,Male,159,134,2,Diabetes,0
+165,21,Male,91,161,3,Pneumonia,0
+166,40,Female,96,102,6,Pneumonia,0
+167,26,Female,147,162,8,Pneumonia,1
+168,82,Male,168,81,8,Heart Disease,1
+169,21,Male,151,172,6,Diabetes,1
+170,74,Male,100,152,2,Diabetes,0
+171,59,Female,166,205,4,Asthma,1
+172,73,Male,179,99,8,Hypertension,1
+173,47,Female,133,186,6,Asthma,1
+174,58,Female,130,135,5,Hypertension,0
+175,78,Male,101,91,1,Asthma,0
+176,65,Male,161,85,8,Pneumonia,1
+177,33,Female,135,178,0,Heart Disease,0
+178,63,Male,163,199,3,Hypertension,1
+179,46,Male,134,212,5,Diabetes,1
+180,46,Female,161,212,0,Pneumonia,1
+181,52,Male,113,139,4,Heart Disease,0
+182,41,Male,162,172,1,Hypertension,1
+183,21,Male,157,125,6,Asthma,1
+184,38,Female,129,153,1,Diabetes,0
+185,24,Male,124,183,6,Asthma,1
+186,71,Female,117,201,1,Heart Disease,1
+187,54,Female,157,148,0,Hypertension,0
+188,25,Male,116,147,3,Hypertension,0
+189,55,Female,105,71,7,Asthma,0
+190,66,Male,154,213,5,Diabetes,1
+191,23,Female,92,187,1,Heart Disease,0
+192,69,Female,127,99,6,Diabetes,1
+193,39,Female,178,162,1,Asthma,1
+194,49,Female,165,172,8,Diabetes,1
+195,57,Female,118,155,2,Diabetes,0
+196,32,Male,134,159,2,Hypertension,0
+197,50,Male,112,109,1,Hypertension,0
+198,81,Female,162,218,7,Pneumonia,1
+199,59,Female,109,182,1,Asthma,0
+200,56,Female,165,84,5,Pneumonia,1
+201,77,Female,94,84,5,Heart Disease,1
+202,29,Female,149,218,8,Diabetes,1
+203,42,Female,167,191,8,Hypertension,1
+204,75,Male,133,91,8,Hypertension,0
+205,74,Female,157,203,2,Heart Disease,1
+206,54,Female,142,156,0,Heart Disease,0
+207,30,Female,126,134,2,Heart Disease,0
+208,36,Female,129,170,2,Pneumonia,0
+209,28,Female,161,166,5,Hypertension,1
+210,85,Male,172,178,8,Heart Disease,1
+211,57,Male,117,157,7,Hypertension,0
+212,35,Male,99,145,1,Pneumonia,0
+213,85,Male,174,156,2,Pneumonia,1
+214,38,Male,178,112,7,Diabetes,1
+215,48,Female,168,142,7,Hypertension,1
+216,57,Female,114,164,7,Asthma,1
+217,66,Female,110,121,2,Heart Disease,0
+218,79,Female,160,96,8,Diabetes,1
+219,38,Female,147,201,2,Asthma,0
+220,46,Female,134,76,6,Diabetes,0
+221,65,Male,139,90,5,Hypertension,0
+222,30,Female,108,105,0,Heart Disease,0
+223,78,Male,180,190,7,Pneumonia,1
+224,28,Male,122,125,2,Pneumonia,0
+225,85,Female,104,143,3,Heart Disease,0
+226,48,Female,171,187,1,Diabetes,1
+227,81,Male,170,201,3,Hypertension,1
+228,18,Female,120,216,6,Hypertension,1
+229,28,Female,98,204,8,Pneumonia,1
+230,82,Male,139,190,0,Asthma,1
+231,50,Male,135,87,5,Hypertension,0
+232,31,Female,107,81,5,Pneumonia,0
+233,40,Female,179,192,2,Hypertension,0
+234,76,Male,127,121,0,Hypertension,0
+235,58,Female,155,171,8,Asthma,1
+236,42,Female,135,82,5,Heart Disease,0
+237,65,Female,141,182,6,Heart Disease,1
+238,81,Female,137,202,4,Diabetes,1
+239,28,Female,167,116,8,Heart Disease,1
+240,28,Female,174,145,4,Asthma,1
+241,72,Male,178,183,5,Asthma,1
+242,63,Female,125,84,1,Asthma,0
+243,38,Male,108,182,0,Hypertension,0
+244,64,Female,139,215,0,Pneumonia,1
+245,75,Female,137,183,1,Pneumonia,0
+246,64,Female,130,141,3,Diabetes,0
+247,41,Female,156,169,8,Diabetes,1
+248,51,Female,117,143,7,Hypertension,0
+249,27,Female,112,183,1,Heart Disease,0
+250,26,Female,128,110,2,Heart Disease,0
+251,33,Male,107,130,7,Diabetes,0
+252,65,Female,160,103,1,Diabetes,0
+253,79,Female,142,217,1,Hypertension,1
+254,27,Female,149,202,5,Hypertension,1
+255,41,Male,145,198,0,Diabetes,0
+256,56,Male,110,152,3,Heart Disease,0
+257,84,Female,100,134,3,Pneumonia,0
+258,56,Male,154,113,2,Hypertension,0
+259,61,Male,93,90,0,Pneumonia,0
+260,44,Female,169,77,7,Pneumonia,1
+261,56,Female,121,173,4,Asthma,0
+262,25,Male,146,176,7,Asthma,1
+263,36,Female,130,158,6,Hypertension,0
+264,83,Male,130,131,7,Diabetes,0
+265,49,Male,102,82,4,Asthma,1
+266,71,Male,110,153,5,Hypertension,1
+267,81,Female,153,148,7,Diabetes,1
+268,68,Female,120,125,5,Diabetes,0
+269,81,Female,126,207,0,Diabetes,0
+270,51,Female,141,163,0,Asthma,0
+271,42,Female,160,143,1,Asthma,0
+272,53,Male,106,94,6,Heart Disease,1
+273,61,Female,108,120,8,Asthma,1
+274,23,Male,107,155,7,Pneumonia,1
+275,83,Male,131,151,2,Asthma,0
+276,56,Female,154,200,8,Asthma,1
+277,56,Female,92,164,5,Diabetes,1
+278,57,Male,166,191,4,Pneumonia,1
+279,24,Female,111,204,6,Hypertension,1
+280,49,Male,163,98,3,Diabetes,0
+281,71,Male,142,122,6,Pneumonia,1
+282,78,Male,180,105,8,Hypertension,1
+283,79,Female,130,114,7,Pneumonia,1
+284,63,Female,168,193,3,Hypertension,1
+285,56,Male,128,143,3,Asthma,0
+286,62,Female,126,101,8,Asthma,1
+287,68,Female,108,144,0,Heart Disease,1
+288,28,Female,146,135,7,Hypertension,0
+289,52,Female,107,97,3,Hypertension,0
+290,85,Male,171,129,0,Diabetes,0
+291,78,Male,177,105,0,Pneumonia,1
+292,38,Female,173,191,7,Hypertension,1
+293,54,Female,126,85,1,Pneumonia,0
+294,22,Male,143,115,0,Asthma,0
+295,41,Female,94,72,4,Pneumonia,1
+296,60,Female,148,209,8,Asthma,1
+297,35,Female,124,119,1,Heart Disease,0
+298,76,Female,113,73,5,Heart Disease,1
+299,42,Male,168,173,6,Pneumonia,1
+300,69,Male,113,105,7,Heart Disease,1
+301,18,Female,139,130,7,Heart Disease,1
+302,56,Male,123,162,3,Diabetes,0
+303,77,Female,110,173,8,Heart Disease,1
+304,55,Female,168,126,3,Hypertension,0
+305,76,Female,143,210,7,Pneumonia,1
+306,45,Male,177,90,8,Asthma,1
+307,64,Male,162,98,0,Pneumonia,1
+308,43,Male,111,153,8,Asthma,0
+309,44,Female,101,200,7,Diabetes,1
+310,83,Female,148,214,0,Pneumonia,1
+311,57,Male,140,135,0,Hypertension,0
+312,23,Female,134,86,8,Diabetes,1
+313,26,Female,94,143,6,Hypertension,0
+314,71,Female,138,184,6,Asthma,1
+315,35,Female,105,115,8,Asthma,0
+316,46,Male,92,146,7,Pneumonia,0
+317,66,Male,121,187,5,Hypertension,1
+318,32,Male,174,177,0,Hypertension,0
+319,30,Male,147,82,3,Diabetes,0
+320,47,Male,97,105,8,Heart Disease,0
+321,58,Female,120,147,2,Pneumonia,0
+322,56,Female,97,212,2,Asthma,0
+323,24,Female,172,167,8,Heart Disease,1
+324,70,Male,128,166,2,Pneumonia,1
+325,46,Female,180,106,7,Diabetes,1
+326,71,Male,139,132,4,Hypertension,1
+327,28,Female,137,93,8,Hypertension,0
+328,66,Male,99,118,8,Hypertension,1
+329,60,Female,91,124,3,Diabetes,0
+330,79,Male,179,122,6,Hypertension,1
+331,54,Female,149,206,5,Heart Disease,1
+332,83,Female,149,95,7,Heart Disease,1
+333,65,Female,142,81,3,Hypertension,0
+334,71,Female,109,120,5,Hypertension,1
+335,49,Female,160,156,4,Asthma,1
+336,80,Female,111,160,2,Hypertension,0
+337,80,Male,159,85,8,Diabetes,1
+338,27,Male,90,175,2,Hypertension,0
+339,37,Male,117,199,7,Heart Disease,1
+340,79,Female,92,71,8,Pneumonia,1
+341,20,Female,158,143,0,Pneumonia,1
+342,73,Male,103,94,8,Hypertension,0
+343,85,Female,135,138,6,Diabetes,1
+344,69,Female,162,132,3,Heart Disease,1
+345,28,Male,101,173,6,Asthma,1
+346,25,Male,179,113,1,Asthma,0
+347,60,Male,157,80,3,Hypertension,0
+348,78,Female,95,89,4,Pneumonia,1
+349,22,Male,130,74,3,Pneumonia,0
+350,68,Male,128,111,3,Pneumonia,1
+351,67,Female,139,105,1,Pneumonia,1
+352,62,Male,102,181,3,Diabetes,0
+353,68,Female,93,139,7,Asthma,0
+354,66,Female,113,219,6,Diabetes,1
+355,55,Male,99,91,4,Hypertension,0
+356,37,Female,130,162,1,Diabetes,0
+357,57,Female,136,139,1,Hypertension,0
+358,73,Female,161,212,8,Asthma,1
+359,29,Female,160,93,5,Asthma,0
+360,70,Female,100,213,3,Pneumonia,1
+361,66,Male,107,138,4,Heart Disease,1
+362,26,Male,145,140,6,Heart Disease,1
+363,27,Female,122,133,7,Pneumonia,1
+364,76,Male,107,147,0,Asthma,0
+365,66,Female,146,155,6,Pneumonia,1
+366,59,Male,151,150,2,Asthma,0
+367,55,Female,163,132,5,Asthma,0
+368,68,Female,104,214,3,Pneumonia,1
+369,41,Male,149,123,7,Heart Disease,1
+370,26,Female,176,197,2,Heart Disease,1
+371,37,Female,138,88,7,Pneumonia,1
+372,69,Female,159,79,5,Pneumonia,1
+373,28,Male,121,160,2,Pneumonia,0
+374,69,Female,145,97,0,Diabetes,0
+375,83,Male,147,165,6,Asthma,1
+376,82,Male,134,76,7,Diabetes,1
+377,28,Male,108,159,4,Heart Disease,1
+378,44,Female,134,191,1,Asthma,0
+379,75,Female,98,146,0,Diabetes,0
+380,61,Male,176,112,3,Pneumonia,1
+381,38,Female,161,179,7,Hypertension,1
+382,41,Male,171,180,6,Diabetes,1
+383,43,Female,165,179,6,Diabetes,1
+384,44,Female,180,86,1,Pneumonia,0
+385,59,Male,148,99,4,Asthma,1
+386,58,Female,168,170,1,Heart Disease,1
+387,76,Male,176,146,1,Hypertension,0
+388,48,Female,104,116,5,Hypertension,0
+389,71,Male,163,168,6,Hypertension,1
+390,40,Male,152,143,2,Hypertension,0
+391,75,Male,135,72,7,Hypertension,0
+392,67,Female,142,195,6,Asthma,1
+393,28,Male,118,144,0,Heart Disease,0
+394,54,Male,148,214,7,Pneumonia,1
+395,32,Female,159,163,8,Diabetes,1
+396,74,Male,144,96,3,Heart Disease,1
+397,22,Female,123,159,1,Asthma,0
+398,33,Male,116,220,5,Pneumonia,1
+399,39,Male,116,122,0,Pneumonia,0
+400,53,Male,131,144,4,Pneumonia,0
+401,83,Male,107,175,0,Heart Disease,1
+402,34,Male,121,107,5,Hypertension,0
+403,68,Female,108,217,4,Asthma,1
+404,27,Male,141,201,4,Heart Disease,1
+405,80,Female,164,70,1,Asthma,1
+406,63,Male,158,171,3,Asthma,1
+407,81,Female,131,142,5,Pneumonia,1
+408,80,Female,177,82,0,Diabetes,1
+409,76,Male,105,110,7,Asthma,0
+410,72,Male,178,103,4,Hypertension,1
+411,53,Male,173,162,4,Diabetes,1
+412,39,Male,140,148,3,Asthma,0
+413,30,Male,117,192,1,Hypertension,0
+414,84,Female,91,72,5,Diabetes,1
+415,72,Male,151,88,3,Asthma,0
+416,31,Male,130,164,4,Hypertension,0
+417,35,Male,98,205,0,Pneumonia,0
+418,74,Female,117,108,6,Pneumonia,1
+419,45,Male,102,105,1,Pneumonia,0
+420,62,Female,130,105,3,Heart Disease,1
+421,49,Female,178,76,4,Hypertension,1
+422,83,Male,140,145,0,Hypertension,0
+423,32,Male,153,88,8,Diabetes,1
+424,58,Male,139,215,6,Heart Disease,1
+425,40,Female,99,74,1,Diabetes,0
+426,23,Male,140,199,4,Pneumonia,1
+427,72,Female,100,207,8,Pneumonia,1
+428,28,Female,100,200,3,Hypertension,0
+429,68,Male,129,181,3,Diabetes,0
+430,73,Male,148,84,4,Hypertension,1
+431,35,Male,110,197,5,Pneumonia,1
+432,51,Male,137,102,4,Diabetes,0
+433,21,Female,144,139,8,Diabetes,0
+434,27,Female,148,200,5,Diabetes,1
+435,39,Female,110,135,1,Pneumonia,0
+436,32,Male,155,70,0,Diabetes,0
+437,78,Female,139,108,2,Diabetes,0
+438,71,Male,131,133,6,Heart Disease,1
+439,27,Female,105,198,0,Hypertension,0
+440,84,Male,141,87,7,Heart Disease,1
+441,57,Female,101,211,7,Diabetes,0
+442,55,Female,169,132,7,Heart Disease,1
+443,81,Male,159,132,2,Diabetes,1
+444,21,Male,159,158,0,Heart Disease,0
+445,66,Female,103,122,8,Hypertension,1
+446,25,Male,125,93,0,Hypertension,0
+447,84,Female,179,165,7,Diabetes,1
+448,82,Male,171,170,1,Pneumonia,1
+449,73,Male,120,144,4,Heart Disease,1
+450,68,Female,130,185,4,Hypertension,1
+451,43,Male,164,97,2,Diabetes,0
+452,77,Female,142,100,8,Heart Disease,1
+453,44,Female,129,188,4,Diabetes,0
+454,56,Male,117,153,2,Diabetes,0
+455,63,Female,155,82,4,Heart Disease,1
+456,40,Male,141,185,8,Pneumonia,1
+457,77,Male,107,101,0,Diabetes,0
+458,46,Male,115,172,5,Diabetes,1
+459,51,Male,92,86,3,Asthma,0
+460,29,Female,105,80,7,Diabetes,0
+461,73,Female,153,77,6,Asthma,1
+462,45,Male,125,141,7,Hypertension,0
+463,49,Female,153,175,8,Asthma,1
+464,53,Female,107,177,3,Pneumonia,0
+465,20,Female,135,192,8,Asthma,0
+466,82,Female,139,139,2,Diabetes,0
+467,46,Male,125,84,7,Pneumonia,0
+468,47,Male,102,133,3,Heart Disease,0
+469,25,Male,163,169,5,Hypertension,1
+470,58,Female,165,77,5,Pneumonia,1
+471,42,Female,159,149,2,Asthma,0
+472,25,Male,167,126,0,Pneumonia,0
+473,60,Male,106,157,2,Heart Disease,0
+474,36,Male,104,204,5,Diabetes,0
+475,68,Male,133,147,5,Hypertension,1
+476,73,Female,173,151,2,Pneumonia,1
+477,63,Male,175,220,2,Asthma,1
+478,55,Male,112,70,6,Pneumonia,0
+479,58,Male,171,214,1,Asthma,0
+480,27,Male,134,151,2,Diabetes,0
+481,60,Female,91,137,3,Hypertension,0
+482,62,Female,103,70,0,Asthma,0
+483,71,Male,142,196,6,Heart Disease,1
+484,30,Female,163,127,2,Asthma,0
+485,22,Female,92,151,4,Diabetes,0
+486,39,Female,110,89,8,Diabetes,0
+487,79,Male,145,112,6,Hypertension,1
+488,60,Male,114,174,8,Pneumonia,1
+489,54,Female,120,94,0,Asthma,0
+490,80,Male,96,162,0,Asthma,0
+491,79,Male,102,76,3,Hypertension,0
+492,28,Female,104,148,6,Asthma,0
+493,51,Male,172,209,6,Hypertension,1
+494,66,Female,113,184,0,Heart Disease,1
+495,51,Male,124,214,0,Hypertension,0
+496,30,Male,175,158,8,Asthma,1
+497,47,Male,139,203,6,Pneumonia,1
+498,78,Male,150,146,1,Asthma,1
+499,22,Male,105,184,2,Hypertension,0
+500,42,Male,95,178,1,Asthma,0
+501,36,Female,130,87,1,Asthma,0
+502,59,Female,156,187,0,Pneumonia,1
+503,71,Male,143,108,2,Pneumonia,1
+504,30,Male,162,95,4,Pneumonia,1
+505,70,Female,139,194,7,Diabetes,1
+506,69,Male,169,172,0,Asthma,1
+507,60,Male,96,191,4,Heart Disease,1
+508,56,Female,125,195,1,Hypertension,0
+509,74,Female,124,176,1,Hypertension,0
+510,70,Female,156,165,0,Pneumonia,1
+511,26,Female,180,199,6,Hypertension,1
+512,85,Male,112,119,3,Diabetes,0
+513,76,Male,136,120,4,Heart Disease,1
+514,82,Female,171,101,0,Hypertension,0
+515,75,Male,150,220,8,Heart Disease,1
+516,51,Male,126,77,6,Diabetes,0
+517,45,Male,172,127,3,Heart Disease,1
+518,83,Male,177,72,7,Hypertension,1
+519,19,Male,122,148,4,Asthma,1
+520,62,Female,122,125,7,Heart Disease,1
+521,68,Male,90,200,5,Pneumonia,1
+522,54,Female,177,97,7,Diabetes,1
+523,53,Female,125,136,4,Hypertension,0
+524,48,Male,166,173,5,Hypertension,1
+525,81,Female,123,177,6,Asthma,1
+526,42,Female,118,206,7,Heart Disease,1
+527,39,Male,127,94,7,Hypertension,0
+528,41,Female,173,92,3,Heart Disease,0
+529,57,Female,132,165,4,Pneumonia,1
+530,33,Female,96,219,1,Asthma,0
+531,82,Male,177,167,8,Heart Disease,1
+532,37,Male,115,157,6,Pneumonia,1
+533,76,Male,130,116,1,Asthma,0
+534,40,Female,171,84,0,Asthma,0
+535,39,Male,152,92,2,Pneumonia,0
+536,72,Female,144,192,6,Diabetes,1
+537,43,Female,91,152,8,Hypertension,0
+538,18,Male,118,158,4,Hypertension,0
+539,82,Female,111,86,0,Heart Disease,1
+540,76,Female,145,104,5,Asthma,1
+541,42,Male,141,74,3,Hypertension,0
+542,34,Male,92,220,8,Hypertension,0
+543,22,Female,171,135,8,Pneumonia,1
+544,24,Male,173,75,0,Diabetes,0
+545,66,Male,160,134,7,Hypertension,1
+546,19,Female,143,95,8,Heart Disease,1
+547,35,Female,103,200,1,Heart Disease,0
+548,31,Female,115,121,4,Pneumonia,1
+549,63,Female,127,111,0,Pneumonia,0
+550,44,Female,132,130,0,Diabetes,0
+551,32,Female,109,93,8,Diabetes,0
+552,30,Female,172,129,7,Heart Disease,1
+553,24,Male,112,80,4,Heart Disease,1
+554,58,Female,104,94,0,Diabetes,0
+555,39,Female,135,182,4,Diabetes,0
+556,61,Male,104,172,6,Asthma,1
+557,67,Female,143,112,1,Hypertension,1
+558,25,Male,103,176,7,Pneumonia,1
+559,41,Female,135,77,2,Asthma,0
+560,32,Female,146,81,1,Heart Disease,1
+561,19,Male,175,156,8,Pneumonia,1
+562,30,Female,174,133,7,Heart Disease,1
+563,67,Male,161,83,0,Hypertension,1
+564,78,Female,111,89,7,Heart Disease,1
+565,53,Male,154,127,8,Asthma,1
+566,48,Male,148,183,7,Diabetes,1
+567,75,Female,105,197,0,Diabetes,0
+568,22,Male,101,147,8,Pneumonia,0
+569,76,Female,136,83,3,Asthma,0
+570,78,Female,147,99,1,Hypertension,0
+571,63,Female,160,203,5,Diabetes,1
+572,39,Female,107,174,1,Heart Disease,0
+573,42,Male,140,125,7,Hypertension,0
+574,31,Female,95,220,1,Asthma,0
+575,82,Male,153,71,8,Diabetes,1
+576,73,Female,155,115,2,Hypertension,0
+577,59,Female,143,133,4,Asthma,1
+578,55,Female,107,105,6,Pneumonia,1
+579,83,Female,179,210,5,Pneumonia,1
+580,43,Male,169,144,5,Hypertension,1
+581,40,Female,180,99,5,Pneumonia,1
+582,71,Female,144,73,8,Diabetes,1
+583,36,Male,175,84,3,Heart Disease,1
+584,38,Female,177,134,2,Diabetes,0
+585,55,Male,159,78,5,Asthma,0
+586,46,Female,120,200,4,Diabetes,1
+587,67,Female,177,150,8,Diabetes,1
+588,50,Male,169,183,3,Heart Disease,1
+589,43,Male,127,184,2,Diabetes,0
+590,40,Male,138,80,6,Heart Disease,1
+591,34,Male,164,135,0,Heart Disease,0
+592,37,Male,109,152,0,Pneumonia,0
+593,56,Female,163,210,5,Diabetes,1
+594,58,Male,113,203,1,Pneumonia,0
+595,69,Male,134,126,3,Heart Disease,0
+596,55,Male,169,205,7,Pneumonia,1
+597,19,Male,175,158,7,Hypertension,1
+598,49,Male,177,152,6,Diabetes,1
+599,54,Male,156,165,8,Pneumonia,1
+600,23,Female,173,119,5,Pneumonia,1
+601,30,Male,158,206,0,Diabetes,0
+602,45,Female,103,122,8,Asthma,0
+603,27,Male,93,187,5,Diabetes,0
+604,24,Male,122,212,1,Pneumonia,1
+605,51,Female,139,185,6,Asthma,0
+606,67,Male,158,71,1,Pneumonia,1
+607,27,Female,154,97,4,Heart Disease,1
+608,54,Female,138,171,0,Asthma,0
+609,46,Male,140,209,4,Hypertension,0
+610,65,Male,160,212,2,Diabetes,1
+611,68,Male,129,123,5,Hypertension,1
+612,83,Male,110,117,3,Pneumonia,1
+613,42,Male,113,215,0,Pneumonia,0
+614,27,Female,175,87,4,Diabetes,0
+615,80,Female,135,102,3,Diabetes,0
+616,26,Male,130,194,7,Heart Disease,1
+617,57,Male,162,215,5,Heart Disease,1
+618,39,Male,130,133,3,Asthma,0
+619,64,Male,176,154,7,Asthma,1
+620,57,Female,160,97,2,Pneumonia,0
+621,53,Male,158,120,4,Diabetes,1
+622,20,Male,164,218,6,Pneumonia,1
+623,22,Female,159,208,7,Hypertension,1
+624,46,Female,107,188,8,Pneumonia,1
+625,64,Male,174,131,2,Pneumonia,1
+626,38,Male,162,214,2,Asthma,1
+627,23,Male,152,129,1,Heart Disease,0
+628,23,Male,156,162,6,Asthma,1
+629,23,Male,173,152,1,Pneumonia,1
+630,53,Female,164,209,2,Asthma,1
+631,64,Male,156,134,6,Hypertension,1
+632,63,Female,152,193,0,Pneumonia,1
+633,74,Male,119,89,8,Heart Disease,1
+634,41,Male,136,100,3,Asthma,0
+635,32,Female,176,192,7,Hypertension,1
+636,70,Male,121,81,2,Pneumonia,1
+637,35,Male,163,107,0,Hypertension,0
+638,41,Female,166,214,0,Heart Disease,1
+639,45,Female,167,190,7,Hypertension,1
+640,70,Male,164,116,8,Heart Disease,1
+641,61,Female,166,87,3,Asthma,0
+642,31,Male,115,203,8,Asthma,1
+643,30,Male,150,79,8,Pneumonia,1
+644,29,Female,174,103,8,Diabetes,1
+645,73,Female,137,81,8,Asthma,0
+646,79,Female,134,220,1,Asthma,0
+647,79,Male,100,142,8,Asthma,0
+648,18,Male,163,203,1,Pneumonia,0
+649,44,Female,142,162,1,Hypertension,0
+650,50,Female,158,178,5,Pneumonia,1
+651,68,Male,142,211,8,Asthma,1
+652,79,Female,129,217,5,Asthma,1
+653,33,Male,147,111,1,Hypertension,0
+654,61,Male,110,169,0,Diabetes,1
+655,78,Female,101,86,4,Hypertension,1
+656,22,Female,141,203,4,Pneumonia,1
+657,40,Female,146,72,3,Pneumonia,0
+658,22,Male,168,113,0,Heart Disease,0
+659,18,Male,101,140,6,Heart Disease,1
+660,69,Male,156,73,1,Diabetes,1
+661,62,Female,125,127,3,Asthma,0
+662,18,Female,112,174,8,Diabetes,1
+663,82,Female,133,99,8,Heart Disease,1
+664,50,Female,138,214,7,Hypertension,1
+665,76,Female,165,77,7,Diabetes,1
+666,66,Male,176,128,5,Asthma,1
+667,84,Male,179,137,3,Heart Disease,1
+668,61,Male,160,115,7,Heart Disease,1
+669,52,Male,177,118,7,Hypertension,0
+670,48,Female,116,128,3,Hypertension,0
+671,63,Male,103,100,1,Asthma,0
+672,23,Female,137,150,7,Pneumonia,1
+673,80,Male,155,141,6,Hypertension,1
+674,34,Male,157,178,7,Pneumonia,1
+675,62,Female,177,114,7,Diabetes,1
+676,76,Female,178,72,0,Hypertension,0
+677,30,Female,136,136,2,Pneumonia,0
+678,52,Female,168,157,5,Hypertension,1
+679,44,Female,179,165,5,Asthma,1
+680,41,Male,163,128,1,Heart Disease,1
+681,73,Female,115,107,2,Asthma,0
+682,40,Female,153,104,8,Pneumonia,1
+683,80,Female,122,213,0,Asthma,0
+684,38,Male,117,135,7,Diabetes,0
+685,60,Female,136,162,8,Pneumonia,1
+686,50,Female,92,175,1,Heart Disease,1
+687,43,Male,126,160,5,Pneumonia,1
+688,75,Male,138,143,7,Hypertension,1
+689,61,Female,170,216,6,Diabetes,1
+690,61,Male,130,151,4,Heart Disease,1
+691,68,Female,146,162,8,Asthma,1
+692,41,Male,106,130,4,Diabetes,0
+693,68,Male,102,86,7,Pneumonia,1
+694,68,Male,103,137,2,Diabetes,0
+695,67,Female,119,133,4,Asthma,1
+696,34,Male,93,78,5,Heart Disease,1
+697,77,Female,160,183,2,Pneumonia,1
+698,76,Female,157,206,4,Heart Disease,1
+699,47,Male,146,148,5,Asthma,0
+700,56,Male,90,203,2,Heart Disease,0
+701,19,Female,151,146,0,Asthma,0
+702,47,Male,160,165,3,Asthma,1
+703,73,Female,121,111,6,Asthma,0
+704,28,Female,170,131,8,Pneumonia,1
+705,52,Female,173,206,4,Asthma,1
+706,26,Male,107,144,1,Asthma,0
+707,52,Female,114,152,0,Hypertension,0
+708,20,Male,103,142,4,Hypertension,0
+709,19,Male,101,108,0,Asthma,0
+710,71,Female,153,165,7,Diabetes,1
+711,36,Male,124,170,1,Pneumonia,0
+712,42,Female,138,73,1,Hypertension,0
+713,74,Male,94,120,7,Diabetes,1
+714,44,Female,139,149,5,Hypertension,0
+715,23,Male,122,193,4,Hypertension,0
+716,24,Male,104,130,6,Heart Disease,0
+717,53,Male,140,132,0,Diabetes,0
+718,78,Male,137,92,3,Hypertension,0
+719,61,Male,97,161,2,Pneumonia,1
+720,34,Female,119,151,8,Heart Disease,1
+721,74,Male,92,166,5,Hypertension,1
+722,23,Female,180,182,8,Heart Disease,1
+723,80,Male,162,117,8,Heart Disease,1
+724,77,Female,166,211,2,Diabetes,1
+725,75,Female,123,208,5,Asthma,1
+726,82,Female,113,74,5,Pneumonia,1
+727,26,Female,114,204,7,Pneumonia,1
+728,54,Female,142,152,1,Diabetes,0
+729,26,Male,106,115,0,Hypertension,0
+730,42,Male,94,216,6,Asthma,1
+731,50,Male,136,126,1,Diabetes,0
+732,44,Female,100,189,0,Heart Disease,0
+733,71,Female,180,84,4,Pneumonia,1
+734,27,Female,99,125,8,Diabetes,0
+735,47,Female,114,119,8,Hypertension,0
+736,40,Female,103,217,5,Asthma,1
+737,72,Male,111,116,8,Asthma,1
+738,38,Female,135,150,8,Heart Disease,1
+739,70,Female,131,131,8,Hypertension,1
+740,50,Female,147,184,6,Diabetes,1
+741,54,Male,156,104,4,Diabetes,1
+742,46,Male,130,75,4,Pneumonia,1
+743,37,Male,94,187,5,Hypertension,0
+744,64,Male,119,135,4,Diabetes,1
+745,45,Male,131,193,2,Asthma,0
+746,30,Female,94,217,6,Diabetes,1
+747,60,Female,145,176,1,Hypertension,1
+748,19,Female,96,148,8,Diabetes,0
+749,37,Female,154,126,2,Diabetes,0
+750,68,Female,166,217,8,Diabetes,1
+751,55,Female,108,103,5,Diabetes,0
+752,24,Female,123,91,6,Pneumonia,1
+753,34,Male,151,213,3,Asthma,0
+754,43,Male,121,88,4,Asthma,0
+755,29,Male,175,175,6,Heart Disease,1
+756,59,Female,166,76,4,Hypertension,1
+757,74,Male,146,81,3,Hypertension,1
+758,37,Male,104,83,3,Pneumonia,0
+759,54,Male,133,98,4,Asthma,0
+760,60,Male,158,124,3,Pneumonia,0
+761,51,Female,169,106,0,Asthma,0
+762,85,Male,122,113,0,Heart Disease,0
+763,52,Male,149,72,1,Asthma,0
+764,64,Male,92,144,6,Hypertension,1
+765,83,Male,130,194,8,Diabetes,1
+766,82,Female,161,75,0,Hypertension,1
+767,57,Female,152,170,2,Diabetes,0
+768,63,Female,170,147,3,Pneumonia,1
+769,25,Female,139,77,8,Heart Disease,0
+770,61,Female,174,105,1,Asthma,1
+771,47,Female,120,216,2,Asthma,0
+772,60,Female,159,103,3,Hypertension,0
+773,43,Male,129,204,2,Asthma,0
+774,36,Male,130,87,8,Pneumonia,1
+775,33,Male,130,107,0,Heart Disease,0
+776,70,Female,128,183,4,Hypertension,1
+777,31,Male,113,76,4,Pneumonia,1
+778,47,Male,119,76,5,Diabetes,0
+779,79,Male,154,190,5,Hypertension,1
+780,80,Female,107,111,3,Hypertension,0
+781,19,Female,142,126,3,Hypertension,0
+782,74,Female,178,153,7,Hypertension,1
+783,23,Female,130,170,8,Pneumonia,1
+784,22,Male,147,186,0,Hypertension,0
+785,68,Male,161,169,8,Diabetes,1
+786,74,Female,128,143,7,Hypertension,1
+787,24,Male,149,185,1,Pneumonia,0
+788,35,Female,142,152,7,Diabetes,0
+789,43,Female,101,134,5,Hypertension,0
+790,33,Male,104,185,5,Diabetes,1
+791,67,Male,138,210,6,Diabetes,1
+792,60,Male,110,107,2,Diabetes,0
+793,57,Female,126,116,1,Hypertension,0
+794,18,Female,91,187,7,Asthma,1
+795,18,Female,120,125,7,Asthma,0
+796,28,Male,121,210,4,Pneumonia,1
+797,44,Male,113,107,0,Heart Disease,0
+798,22,Female,132,92,0,Diabetes,0
+799,40,Male,176,142,8,Hypertension,1
+800,64,Male,101,146,5,Heart Disease,1
+801,26,Female,160,86,4,Asthma,0
+802,53,Female,157,175,8,Hypertension,1
+803,25,Male,163,205,1,Asthma,1
+804,54,Female,167,151,4,Pneumonia,1
+805,63,Male,168,214,7,Pneumonia,1
+806,81,Female,113,129,4,Hypertension,0
+807,21,Female,170,100,3,Pneumonia,1
+808,70,Male,132,159,8,Hypertension,0
+809,43,Female,122,87,4,Heart Disease,1
+810,59,Male,104,155,5,Asthma,0
+811,21,Male,114,154,5,Asthma,1
+812,22,Male,151,109,7,Pneumonia,1
+813,77,Female,97,203,4,Pneumonia,1
+814,58,Male,116,217,5,Heart Disease,1
+815,37,Female,93,156,6,Pneumonia,1
+816,67,Male,166,99,4,Heart Disease,1
+817,52,Female,101,197,3,Heart Disease,0
+818,56,Male,157,147,2,Diabetes,0
+819,22,Male,101,183,8,Diabetes,1
+820,82,Male,114,157,7,Pneumonia,1
+821,59,Male,102,202,2,Hypertension,0
+822,76,Female,156,99,0,Heart Disease,1
+823,29,Female,149,81,1,Pneumonia,1
+824,57,Male,163,149,3,Heart Disease,0
+825,54,Female,158,151,7,Diabetes,0
+826,38,Female,104,73,8,Pneumonia,0
+827,62,Female,124,106,4,Pneumonia,1
+828,27,Female,168,156,8,Asthma,0
+829,21,Female,176,82,1,Asthma,0
+830,72,Female,112,184,5,Heart Disease,1
+831,43,Male,149,215,2,Diabetes,1
+832,77,Male,148,149,7,Asthma,1
+833,46,Male,168,136,5,Asthma,0
+834,60,Female,148,194,0,Diabetes,0
+835,62,Female,149,113,4,Heart Disease,1
+836,34,Male,141,97,5,Pneumonia,1
+837,56,Female,141,175,3,Pneumonia,1
+838,38,Female,139,86,5,Hypertension,0
+839,73,Female,162,157,8,Hypertension,1
+840,27,Female,104,188,5,Pneumonia,1
+841,74,Male,129,173,1,Pneumonia,0
+842,66,Female,153,85,1,Hypertension,1
+843,18,Male,174,108,7,Pneumonia,1
+844,75,Male,116,151,4,Pneumonia,1
+845,56,Female,134,92,0,Pneumonia,0
+846,69,Male,127,85,5,Pneumonia,1
+847,18,Female,104,142,0,Hypertension,0
+848,68,Female,138,173,6,Asthma,1
+849,40,Female,107,118,8,Asthma,0
+850,64,Female,109,143,2,Hypertension,0
+851,20,Male,152,181,2,Diabetes,0
+852,71,Female,179,178,2,Asthma,1
+853,75,Female,135,127,2,Asthma,0
+854,81,Male,154,138,6,Pneumonia,1
+855,22,Male,162,193,5,Diabetes,1
+856,28,Male,157,141,7,Pneumonia,1
+857,29,Male,150,89,8,Pneumonia,1
+858,24,Female,158,72,7,Asthma,1
+859,78,Female,143,160,4,Heart Disease,1
+860,56,Female,97,191,2,Pneumonia,0
+861,55,Male,126,194,1,Hypertension,0
+862,53,Female,106,141,4,Heart Disease,0
+863,32,Male,165,108,7,Heart Disease,1
+864,51,Male,152,116,8,Diabetes,1
+865,28,Male,166,109,7,Asthma,1
+866,48,Female,171,112,3,Pneumonia,1
+867,62,Male,172,137,1,Diabetes,0
+868,69,Female,128,191,8,Hypertension,1
+869,67,Female,123,107,8,Asthma,0
+870,75,Female,176,150,8,Diabetes,1
+871,63,Female,168,139,5,Heart Disease,1
+872,30,Female,173,219,6,Asthma,1
+873,48,Male,156,156,2,Heart Disease,0
+874,19,Male,91,175,1,Pneumonia,0
+875,75,Female,118,142,4,Hypertension,0
+876,29,Male,166,125,1,Diabetes,0
+877,34,Female,174,214,2,Diabetes,1
+878,50,Female,149,89,7,Heart Disease,1
+879,59,Female,110,88,4,Diabetes,0
+880,60,Male,123,137,2,Asthma,0
+881,43,Female,112,195,1,Hypertension,0
+882,73,Male,168,97,7,Heart Disease,1
+883,27,Male,163,134,7,Diabetes,1
+884,37,Male,94,169,4,Hypertension,1
+885,68,Male,155,195,7,Asthma,1
+886,26,Male,90,168,7,Diabetes,1
+887,63,Female,177,147,6,Diabetes,1
+888,29,Female,158,157,1,Asthma,0
+889,55,Male,112,211,0,Asthma,0
+890,56,Female,103,161,7,Diabetes,1
+891,74,Male,107,79,3,Diabetes,0
+892,48,Female,139,86,8,Heart Disease,1
+893,75,Male,94,156,0,Heart Disease,1
+894,23,Female,105,124,8,Asthma,1
+895,37,Male,99,79,2,Asthma,0
+896,78,Male,121,103,0,Hypertension,0
+897,57,Male,148,113,1,Diabetes,0
+898,46,Male,115,179,5,Asthma,0
+899,35,Female,117,81,2,Heart Disease,0
+900,53,Male,143,113,5,Pneumonia,1
+901,49,Male,107,95,6,Hypertension,0
+902,80,Male,90,71,2,Diabetes,0
+903,54,Female,178,191,2,Hypertension,0
+904,52,Female,142,131,2,Pneumonia,1
+905,41,Female,168,92,4,Heart Disease,1
+906,48,Male,105,205,1,Pneumonia,0
+907,82,Male,149,123,4,Diabetes,1
+908,37,Female,153,115,2,Diabetes,0
+909,64,Female,116,181,4,Heart Disease,1
+910,76,Male,103,83,8,Hypertension,0
+911,21,Female,155,99,1,Hypertension,0
+912,59,Female,115,153,3,Diabetes,0
+913,30,Male,142,121,6,Hypertension,0
+914,80,Male,145,107,3,Pneumonia,1
+915,67,Female,107,187,3,Heart Disease,1
+916,43,Female,106,78,0,Heart Disease,0
+917,77,Female,143,113,5,Hypertension,1
+918,38,Male,163,211,3,Diabetes,0
+919,84,Female,117,191,7,Heart Disease,1
+920,72,Male,121,153,6,Pneumonia,1
+921,37,Male,143,81,0,Asthma,0
+922,82,Male,144,205,6,Asthma,1
+923,30,Female,153,131,1,Pneumonia,1
+924,70,Male,106,161,4,Hypertension,1
+925,29,Male,151,148,2,Asthma,0
+926,21,Female,149,105,6,Hypertension,1
+927,65,Female,180,70,1,Asthma,1
+928,60,Male,127,179,4,Pneumonia,1
+929,44,Male,169,155,0,Pneumonia,1
+930,64,Male,104,168,5,Asthma,1
+931,64,Female,112,213,1,Pneumonia,1
+932,44,Male,132,131,8,Diabetes,0
+933,44,Male,131,160,4,Pneumonia,1
+934,53,Male,98,165,5,Asthma,1
+935,85,Male,150,206,8,Heart Disease,1
+936,65,Male,114,187,1,Diabetes,0
+937,40,Female,99,97,2,Heart Disease,0
+938,36,Female,109,122,8,Diabetes,0
+939,34,Female,134,177,7,Diabetes,0
+940,26,Male,119,203,5,Asthma,1
+941,59,Female,165,205,8,Asthma,1
+942,34,Female,111,136,3,Asthma,0
+943,54,Male,108,160,4,Asthma,1
+944,38,Female,113,114,2,Hypertension,0
+945,23,Female,163,102,7,Heart Disease,1
+946,44,Male,175,151,5,Hypertension,1
+947,38,Female,105,76,6,Asthma,0
+948,76,Female,109,71,8,Pneumonia,1
+949,55,Female,127,216,2,Pneumonia,1
+950,74,Female,178,98,7,Diabetes,1
+951,32,Female,93,172,3,Asthma,0
+952,59,Male,167,119,8,Hypertension,1
+953,53,Male,92,91,8,Asthma,0
+954,29,Female,114,195,5,Pneumonia,1
+955,25,Female,140,107,6,Heart Disease,0
+956,19,Female,134,159,4,Asthma,1
+957,29,Male,146,176,7,Heart Disease,1
+958,72,Female,107,220,1,Hypertension,0
+959,78,Female,98,166,1,Diabetes,0
+960,52,Female,112,212,7,Pneumonia,1
+961,35,Male,113,167,4,Pneumonia,1
+962,56,Female,153,213,7,Hypertension,1
+963,18,Male,123,146,7,Diabetes,0
+964,54,Female,112,195,3,Diabetes,0
+965,53,Female,98,162,7,Pneumonia,1
+966,51,Female,178,100,5,Pneumonia,1
+967,20,Female,110,218,0,Hypertension,0
+968,35,Female,110,83,4,Heart Disease,0
+969,63,Male,127,144,8,Diabetes,1
+970,41,Male,166,112,8,Heart Disease,1
+971,56,Female,177,162,1,Pneumonia,1
+972,36,Male,107,202,4,Heart Disease,1
+973,70,Female,110,96,3,Hypertension,0
+974,42,Male,143,187,1,Diabetes,1
+975,20,Female,134,149,5,Hypertension,0
+976,84,Female,112,147,0,Diabetes,0
+977,36,Male,129,102,3,Hypertension,0
+978,72,Male,99,74,7,Asthma,0
+979,31,Male,174,201,0,Asthma,0
+980,50,Male,98,147,0,Diabetes,0
+981,44,Male,113,159,0,Diabetes,0
+982,53,Female,135,111,8,Pneumonia,0
+983,26,Male,164,73,8,Hypertension,1
+984,54,Male,158,71,1,Hypertension,0
+985,78,Female,179,220,2,Asthma,1
+986,31,Male,135,167,6,Hypertension,1
+987,70,Male,130,101,7,Diabetes,1
+988,81,Female,180,143,8,Diabetes,1
+989,81,Male,139,142,7,Pneumonia,1
+990,74,Male,160,174,4,Asthma,1
+991,26,Female,176,164,2,Diabetes,1
+992,80,Male,140,182,8,Diabetes,1
+993,68,Female,178,96,2,Diabetes,0
+994,43,Female,115,173,1,Hypertension,0
+995,81,Female,164,139,6,Heart Disease,1
+996,69,Female,155,141,2,Asthma,0
+997,50,Female,153,129,2,Diabetes,0
+998,24,Male,153,76,2,Asthma,0
+999,59,Male,128,94,1,Pneumonia,0
+1000,77,Male,127,197,7,Pneumonia,1
+1001,61,Male,94,180,1,Asthma,0
+1002,66,Female,148,79,0,Hypertension,1
+1003,56,Male,152,180,2,Heart Disease,1
+1004,80,Male,162,195,8,Pneumonia,1
+1005,78,Male,154,84,6,Heart Disease,1
+1006,66,Female,126,152,0,Diabetes,0
+1007,34,Female,134,219,0,Heart Disease,0
+1008,72,Female,135,175,5,Diabetes,1
+1009,49,Male,172,149,1,Diabetes,0
+1010,32,Female,111,75,8,Heart Disease,0
+1011,72,Female,124,75,7,Pneumonia,1
+1012,58,Female,163,169,5,Pneumonia,1
+1013,80,Male,178,122,5,Asthma,1
+1014,61,Male,168,146,5,Asthma,1
+1015,27,Male,126,137,0,Heart Disease,0
+1016,69,Male,169,93,1,Pneumonia,1
+1017,26,Female,144,123,5,Diabetes,1
+1018,56,Female,145,208,5,Hypertension,1
+1019,50,Female,175,210,2,Diabetes,1
+1020,84,Male,163,197,3,Asthma,1
+1021,73,Male,156,121,5,Asthma,1
+1022,37,Female,145,175,5,Diabetes,1
+1023,70,Female,126,111,4,Pneumonia,1
+1024,48,Male,109,119,0,Hypertension,0
+1025,57,Female,152,213,6,Asthma,1
+1026,22,Male,110,139,2,Diabetes,0
+1027,53,Male,172,80,7,Diabetes,0
+1028,28,Female,167,146,1,Asthma,0
+1029,29,Female,107,130,1,Pneumonia,0
+1030,33,Female,153,93,3,Pneumonia,0
+1031,58,Female,164,169,3,Asthma,0
+1032,31,Male,117,140,7,Asthma,0
+1033,25,Female,158,165,1,Heart Disease,1
+1034,78,Male,125,107,5,Asthma,1
+1035,57,Male,172,78,0,Hypertension,0
+1036,67,Female,171,162,1,Pneumonia,1
+1037,74,Female,91,170,4,Heart Disease,1
+1038,48,Female,116,111,7,Heart Disease,1
+1039,70,Male,125,90,7,Asthma,1
+1040,60,Female,102,111,4,Pneumonia,0
+1041,71,Female,148,77,0,Hypertension,1
+1042,35,Male,141,121,4,Heart Disease,1
+1043,32,Male,121,202,2,Pneumonia,0
+1044,58,Female,151,104,4,Hypertension,1
+1045,59,Female,115,91,6,Heart Disease,0
+1046,66,Male,92,75,8,Pneumonia,1
+1047,29,Female,115,137,2,Diabetes,0
+1048,72,Female,109,92,5,Hypertension,1
+1049,33,Male,157,181,7,Asthma,1
+1050,44,Male,124,143,7,Asthma,0
+1051,44,Male,126,118,6,Hypertension,0
+1052,36,Male,127,137,3,Pneumonia,0
+1053,49,Female,164,187,1,Diabetes,0
+1054,59,Female,177,124,6,Asthma,1
+1055,50,Male,102,212,0,Diabetes,0
+1056,48,Female,135,81,0,Heart Disease,0
+1057,66,Female,140,164,2,Pneumonia,0
+1058,40,Female,111,198,7,Heart Disease,1
+1059,34,Male,130,205,6,Hypertension,0
+1060,58,Male,106,197,4,Heart Disease,1
+1061,54,Female,168,137,8,Heart Disease,1
+1062,39,Female,152,108,8,Asthma,0
+1063,37,Male,119,116,0,Asthma,0
+1064,77,Female,104,196,0,Asthma,0
+1065,80,Female,153,98,2,Diabetes,0
+1066,44,Female,113,113,8,Heart Disease,1
+1067,45,Male,157,216,2,Asthma,1
+1068,49,Female,176,94,5,Diabetes,0
+1069,33,Female,137,97,5,Hypertension,0
+1070,76,Female,148,138,0,Heart Disease,1
+1071,75,Female,162,103,3,Diabetes,1
+1072,54,Female,97,88,8,Pneumonia,0
+1073,69,Female,112,131,6,Diabetes,0
+1074,44,Male,139,173,4,Hypertension,0
+1075,80,Female,129,103,5,Diabetes,1
+1076,83,Male,152,184,6,Asthma,1
+1077,72,Male,144,164,2,Asthma,1
+1078,29,Male,155,157,7,Hypertension,1
+1079,37,Female,157,204,1,Heart Disease,1
+1080,28,Female,128,108,2,Heart Disease,0
+1081,84,Female,127,215,0,Pneumonia,0
+1082,23,Male,155,178,6,Diabetes,1
+1083,50,Female,122,219,1,Pneumonia,0
+1084,77,Male,113,170,0,Diabetes,0
+1085,56,Female,165,186,7,Pneumonia,1
+1086,61,Male,117,117,1,Pneumonia,0
+1087,31,Female,158,74,0,Asthma,0
+1088,39,Female,148,173,7,Heart Disease,1
+1089,64,Female,128,92,2,Hypertension,0
+1090,32,Male,179,118,0,Hypertension,0
+1091,36,Male,145,207,3,Diabetes,0
+1092,77,Male,150,178,0,Diabetes,1
+1093,37,Female,152,190,0,Asthma,1
+1094,43,Female,162,170,0,Heart Disease,0
+1095,73,Female,153,218,8,Heart Disease,1
+1096,69,Female,155,194,3,Diabetes,1
+1097,72,Female,160,86,4,Asthma,1
+1098,32,Female,169,158,7,Asthma,0
+1099,54,Male,150,158,7,Hypertension,1
+1100,61,Female,106,145,6,Asthma,1
+1101,64,Female,110,123,4,Diabetes,1
+1102,34,Male,115,110,7,Diabetes,0
+1103,81,Female,120,123,8,Diabetes,1
+1104,63,Female,135,110,2,Pneumonia,0
+1105,26,Female,145,99,3,Diabetes,0
+1106,80,Female,133,160,0,Pneumonia,0
+1107,37,Male,180,82,7,Asthma,1
+1108,32,Male,168,96,8,Diabetes,1
+1109,39,Male,116,162,2,Heart Disease,0
+1110,82,Female,102,109,5,Heart Disease,1
+1111,33,Male,146,176,0,Hypertension,1
+1112,78,Female,126,199,2,Diabetes,0
+1113,71,Female,170,132,2,Pneumonia,1
+1114,47,Male,144,175,6,Asthma,1
+1115,84,Female,93,183,2,Diabetes,1
+1116,84,Male,100,156,5,Asthma,1
+1117,39,Female,97,170,0,Hypertension,0
+1118,25,Female,143,172,8,Heart Disease,1
+1119,58,Female,91,141,8,Pneumonia,1
+1120,69,Female,172,122,8,Pneumonia,1
+1121,74,Female,173,173,3,Heart Disease,1
+1122,60,Female,106,203,8,Heart Disease,1
+1123,83,Female,156,157,2,Diabetes,0
+1124,51,Male,128,178,8,Diabetes,1
+1125,65,Female,170,199,5,Diabetes,1
+1126,33,Female,128,216,0,Asthma,0
+1127,48,Male,134,146,4,Pneumonia,1
+1128,66,Male,103,153,8,Pneumonia,1
+1129,64,Female,102,107,6,Asthma,0
+1130,25,Female,106,191,3,Asthma,0
+1131,85,Female,165,213,8,Asthma,1
+1132,81,Female,146,195,6,Hypertension,1
+1133,34,Female,148,103,8,Pneumonia,1
+1134,45,Female,150,78,2,Pneumonia,0
+1135,33,Female,104,100,5,Pneumonia,0
+1136,84,Male,105,165,4,Heart Disease,1
+1137,80,Male,108,106,6,Diabetes,1
+1138,57,Female,117,116,7,Diabetes,0
+1139,62,Male,95,176,7,Pneumonia,1
+1140,75,Female,138,191,2,Hypertension,0
+1141,76,Female,175,184,2,Heart Disease,1
+1142,70,Female,119,171,5,Pneumonia,1
+1143,74,Female,172,92,2,Diabetes,1
+1144,57,Male,172,213,1,Hypertension,1
+1145,24,Male,150,198,0,Diabetes,1
+1146,41,Male,125,122,3,Pneumonia,0
+1147,59,Female,165,81,7,Diabetes,1
+1148,41,Female,93,205,5,Asthma,0
+1149,32,Male,159,113,4,Hypertension,0
+1150,29,Male,129,174,2,Diabetes,0
+1151,59,Male,93,84,4,Asthma,0
+1152,36,Female,131,136,6,Diabetes,0
+1153,48,Male,153,200,8,Asthma,1
+1154,52,Male,130,188,8,Asthma,0
+1155,21,Female,171,129,0,Heart Disease,0
+1156,30,Male,161,102,4,Pneumonia,1
+1157,28,Male,108,165,8,Hypertension,1
+1158,72,Female,95,70,7,Pneumonia,1
+1159,39,Male,97,193,4,Pneumonia,1
+1160,66,Female,170,124,8,Heart Disease,1
+1161,26,Female,101,171,1,Hypertension,0
+1162,53,Female,116,199,5,Heart Disease,1
+1163,75,Female,121,152,5,Hypertension,1
+1164,60,Male,178,104,0,Pneumonia,0
+1165,19,Male,142,212,7,Asthma,1
+1166,27,Male,175,183,1,Heart Disease,1
+1167,66,Female,139,115,0,Diabetes,0
+1168,42,Female,91,126,0,Heart Disease,0
+1169,63,Male,101,147,3,Hypertension,0
+1170,64,Male,125,196,3,Diabetes,0
+1171,68,Male,125,215,8,Asthma,1
+1172,42,Male,98,220,2,Diabetes,0
+1173,47,Female,114,75,8,Pneumonia,0
+1174,76,Male,144,83,5,Asthma,1
+1175,70,Female,105,202,7,Asthma,1
+1176,23,Male,96,141,6,Pneumonia,1
+1177,18,Female,114,155,1,Pneumonia,0
+1178,46,Female,99,133,3,Hypertension,0
+1179,26,Male,93,192,6,Diabetes,1
+1180,60,Female,121,97,7,Hypertension,1
+1181,24,Female,156,130,1,Pneumonia,1
+1182,30,Female,164,101,1,Diabetes,0
+1183,66,Female,178,86,2,Diabetes,1
+1184,74,Male,128,180,1,Diabetes,1
+1185,24,Female,138,172,1,Pneumonia,1
+1186,47,Male,148,168,7,Asthma,1
+1187,30,Female,173,76,7,Pneumonia,1
+1188,42,Male,103,73,1,Pneumonia,0
+1189,42,Male,171,200,4,Heart Disease,1
+1190,74,Male,121,105,0,Diabetes,0
+1191,73,Female,129,219,8,Hypertension,1
+1192,57,Female,127,164,0,Pneumonia,0
+1193,36,Male,120,199,8,Diabetes,0
+1194,43,Male,171,121,1,Heart Disease,0
+1195,78,Female,166,154,5,Pneumonia,1
+1196,60,Male,103,186,0,Asthma,0
+1197,18,Male,178,128,7,Pneumonia,1
+1198,79,Female,138,122,6,Hypertension,1
+1199,18,Female,91,88,5,Diabetes,0
+1200,36,Female,146,119,5,Diabetes,1
+1201,43,Male,126,114,3,Heart Disease,0
+1202,61,Male,112,120,0,Hypertension,0
+1203,30,Male,176,105,6,Diabetes,1
+1204,44,Female,148,131,5,Heart Disease,1
+1205,85,Female,98,100,2,Hypertension,0
+1206,42,Female,178,165,5,Pneumonia,1
+1207,49,Male,168,220,3,Pneumonia,1
+1208,37,Female,121,83,4,Hypertension,0
+1209,80,Male,100,190,1,Hypertension,0
+1210,83,Female,153,202,7,Hypertension,1
+1211,65,Female,153,191,4,Pneumonia,1
+1212,22,Male,118,121,7,Hypertension,0
+1213,57,Female,138,216,2,Heart Disease,0
+1214,28,Male,100,145,7,Pneumonia,0
+1215,23,Female,155,156,6,Asthma,1
+1216,70,Female,153,151,4,Asthma,1
+1217,74,Male,123,89,5,Diabetes,1
+1218,82,Male,125,128,1,Diabetes,0
+1219,22,Male,132,120,5,Heart Disease,0
+1220,53,Male,180,105,8,Heart Disease,1
+1221,56,Female,134,173,6,Pneumonia,1
+1222,19,Female,173,201,2,Asthma,0
+1223,44,Female,119,202,8,Asthma,1
+1224,77,Female,100,150,3,Asthma,0
+1225,71,Male,146,185,8,Diabetes,1
+1226,34,Female,91,197,5,Heart Disease,1
+1227,72,Female,178,207,4,Heart Disease,1
+1228,22,Male,109,154,6,Asthma,0
+1229,68,Male,158,168,3,Asthma,1
+1230,75,Female,101,113,1,Pneumonia,0
+1231,80,Male,113,120,1,Asthma,0
+1232,47,Female,174,204,1,Asthma,0
+1233,84,Male,111,153,6,Asthma,0
+1234,32,Male,158,177,7,Diabetes,1
+1235,44,Male,116,149,6,Asthma,0
+1236,57,Male,154,187,4,Hypertension,1
+1237,36,Female,98,172,3,Pneumonia,0
+1238,80,Female,149,217,0,Diabetes,1
+1239,76,Female,179,146,6,Pneumonia,1
+1240,40,Female,121,115,6,Asthma,0
+1241,41,Male,140,81,3,Hypertension,0
+1242,55,Male,179,125,7,Asthma,1
+1243,33,Female,99,96,8,Heart Disease,0
+1244,39,Female,116,199,0,Asthma,0
+1245,77,Female,133,172,3,Asthma,0
+1246,50,Male,180,104,5,Asthma,1
+1247,26,Male,160,132,7,Hypertension,1
+1248,53,Male,111,74,1,Hypertension,0
+1249,68,Male,99,72,4,Hypertension,1
+1250,40,Male,94,206,3,Asthma,0
+1251,84,Male,139,148,7,Diabetes,1
+1252,24,Female,115,133,5,Hypertension,0
+1253,20,Female,93,73,5,Hypertension,0
+1254,26,Male,102,112,2,Diabetes,0
+1255,31,Female,131,213,3,Pneumonia,0
+1256,68,Female,105,129,3,Diabetes,0
+1257,40,Male,141,150,0,Asthma,0
+1258,46,Male,174,141,5,Diabetes,0
+1259,45,Female,128,197,1,Pneumonia,1
+1260,39,Female,102,153,6,Hypertension,0
+1261,58,Female,98,155,0,Pneumonia,0
+1262,75,Female,155,129,8,Pneumonia,1
+1263,19,Male,92,101,4,Hypertension,0
+1264,49,Male,97,105,5,Asthma,0
+1265,37,Female,116,79,3,Pneumonia,0
+1266,74,Female,107,141,5,Diabetes,1
+1267,71,Female,93,128,5,Heart Disease,1
+1268,24,Male,177,126,6,Pneumonia,1
+1269,74,Male,98,195,1,Hypertension,0
+1270,36,Male,106,93,2,Pneumonia,0
+1271,44,Male,154,90,6,Asthma,1
+1272,43,Male,144,115,3,Heart Disease,0
+1273,75,Male,124,193,1,Heart Disease,1
+1274,39,Female,146,178,8,Pneumonia,1
+1275,37,Female,92,167,6,Diabetes,1
+1276,56,Male,160,114,4,Asthma,1
+1277,76,Female,138,213,7,Diabetes,1
+1278,78,Male,109,118,0,Diabetes,0
+1279,65,Female,141,176,6,Heart Disease,1
+1280,57,Male,142,79,1,Asthma,0
+1281,38,Male,145,135,5,Pneumonia,1
+1282,65,Male,173,168,6,Hypertension,1
+1283,22,Female,170,77,2,Heart Disease,1
+1284,36,Female,121,218,2,Diabetes,0
+1285,29,Female,140,220,1,Pneumonia,1
+1286,72,Male,144,134,4,Pneumonia,1
+1287,66,Female,142,92,1,Pneumonia,1
+1288,62,Male,124,123,6,Heart Disease,1
+1289,39,Female,90,94,1,Asthma,0
+1290,54,Female,111,115,5,Hypertension,0
+1291,43,Female,113,198,1,Asthma,0
+1292,45,Male,115,85,2,Hypertension,0
+1293,70,Female,170,97,2,Diabetes,0
+1294,66,Male,125,86,5,Diabetes,1
+1295,79,Female,176,95,0,Diabetes,0
+1296,18,Male,102,124,8,Diabetes,0
+1297,84,Female,152,191,5,Pneumonia,1
+1298,65,Female,130,131,5,Asthma,1
+1299,25,Female,132,95,0,Asthma,0
+1300,69,Male,93,101,8,Heart Disease,1
+1301,49,Female,147,191,8,Asthma,1
+1302,18,Female,92,162,0,Heart Disease,0
+1303,47,Female,141,90,5,Asthma,1
+1304,78,Male,139,145,3,Hypertension,0
+1305,82,Male,106,197,1,Heart Disease,1
+1306,77,Male,147,99,7,Pneumonia,1
+1307,45,Male,174,92,1,Asthma,0
+1308,21,Male,131,168,4,Hypertension,1
+1309,78,Male,175,104,8,Asthma,1
+1310,60,Male,163,86,5,Asthma,1
+1311,66,Female,119,127,4,Diabetes,1
+1312,32,Male,133,118,1,Pneumonia,0
+1313,58,Female,163,70,4,Diabetes,1
+1314,42,Female,144,151,5,Hypertension,1
+1315,46,Male,140,72,8,Asthma,0
+1316,55,Male,153,186,2,Pneumonia,1
+1317,22,Female,129,198,1,Heart Disease,1
+1318,79,Male,153,144,6,Diabetes,1
+1319,60,Male,116,127,0,Hypertension,0
+1320,68,Female,174,110,0,Pneumonia,1
+1321,72,Female,134,170,6,Diabetes,1
+1322,54,Female,179,119,8,Asthma,0
+1323,59,Male,180,147,7,Hypertension,1
+1324,74,Female,127,107,3,Hypertension,0
+1325,43,Male,136,217,1,Hypertension,0
+1326,72,Male,97,94,5,Asthma,0
+1327,24,Male,155,156,6,Hypertension,1
+1328,69,Male,94,100,3,Asthma,0
+1329,40,Female,178,92,7,Asthma,0
+1330,74,Female,91,100,1,Diabetes,0
+1331,83,Male,92,220,7,Heart Disease,1
+1332,30,Male,139,193,6,Heart Disease,1
+1333,30,Female,98,207,2,Asthma,0
+1334,20,Female,161,207,8,Asthma,1
+1335,33,Male,174,100,2,Pneumonia,1
+1336,18,Female,130,101,0,Hypertension,0
+1337,38,Male,161,135,0,Diabetes,0
+1338,82,Female,136,209,2,Asthma,1
+1339,18,Male,128,81,8,Heart Disease,1
+1340,74,Male,163,195,5,Pneumonia,1
+1341,63,Male,178,95,0,Hypertension,0
+1342,36,Female,117,104,8,Hypertension,0
+1343,53,Male,169,178,1,Pneumonia,1
+1344,66,Male,141,186,1,Heart Disease,1
+1345,36,Male,99,138,3,Heart Disease,0
+1346,83,Male,143,109,5,Asthma,1
+1347,49,Male,124,101,8,Diabetes,0
+1348,70,Male,132,92,5,Heart Disease,1
+1349,36,Male,125,72,1,Asthma,0
+1350,46,Female,103,101,2,Pneumonia,0
+1351,57,Female,102,205,5,Pneumonia,1
+1352,52,Male,96,113,5,Asthma,0
+1353,69,Female,165,102,4,Diabetes,1
+1354,37,Male,108,166,4,Diabetes,1
+1355,65,Male,176,177,7,Hypertension,1
+1356,63,Female,154,143,4,Asthma,1
+1357,47,Female,171,92,4,Asthma,1
+1358,29,Male,99,131,1,Hypertension,0
+1359,28,Female,160,196,0,Asthma,1
+1360,35,Female,153,201,8,Diabetes,1
+1361,42,Male,144,206,5,Hypertension,1
+1362,85,Male,167,184,2,Pneumonia,1
+1363,40,Male,136,104,8,Heart Disease,1
+1364,72,Female,138,113,5,Diabetes,1
+1365,49,Male,127,146,7,Heart Disease,0
+1366,18,Female,117,148,8,Diabetes,1
+1367,80,Male,135,71,7,Heart Disease,1
+1368,31,Male,134,117,6,Heart Disease,0
+1369,73,Female,115,91,8,Pneumonia,1
+1370,70,Male,152,71,2,Heart Disease,1
+1371,68,Female,128,163,6,Hypertension,1
+1372,52,Male,146,182,2,Hypertension,0
+1373,73,Male,135,120,1,Hypertension,0
+1374,35,Female,143,154,0,Hypertension,0
+1375,79,Female,105,177,7,Pneumonia,1
+1376,34,Female,141,198,6,Hypertension,1
+1377,31,Male,106,109,5,Pneumonia,0
+1378,48,Male,176,157,6,Pneumonia,1
+1379,73,Female,127,142,7,Diabetes,1
+1380,49,Male,155,117,3,Heart Disease,1
+1381,51,Male,175,179,3,Asthma,1
+1382,31,Male,114,108,3,Diabetes,0
+1383,22,Female,114,107,6,Diabetes,0
+1384,29,Male,138,174,8,Heart Disease,1
+1385,47,Male,133,179,7,Diabetes,1
+1386,24,Female,104,138,5,Heart Disease,1
+1387,71,Male,130,82,2,Diabetes,0
+1388,59,Male,126,190,4,Pneumonia,1
+1389,41,Female,152,163,5,Heart Disease,1
+1390,19,Male,132,162,5,Pneumonia,1
+1391,65,Male,173,140,3,Pneumonia,1
+1392,31,Male,170,100,0,Pneumonia,1
+1393,42,Male,180,184,1,Diabetes,1
+1394,61,Female,150,121,8,Hypertension,1
+1395,42,Female,160,134,8,Heart Disease,1
+1396,75,Male,145,87,7,Asthma,1
+1397,82,Male,111,140,2,Heart Disease,0
+1398,25,Male,140,196,8,Pneumonia,1
+1399,39,Female,155,168,8,Asthma,1
+1400,52,Male,113,70,2,Pneumonia,0
+1401,19,Female,154,204,4,Heart Disease,1
+1402,55,Female,160,100,2,Hypertension,0
+1403,48,Female,95,107,4,Hypertension,0
+1404,24,Male,116,206,1,Diabetes,0
+1405,65,Female,100,210,4,Hypertension,1
+1406,55,Female,97,72,5,Hypertension,0
+1407,53,Male,122,74,8,Pneumonia,0
+1408,66,Female,170,211,3,Asthma,1
+1409,52,Male,164,171,2,Asthma,0
+1410,73,Female,108,192,1,Asthma,0
+1411,41,Male,114,215,7,Hypertension,1
+1412,20,Female,110,115,6,Pneumonia,0
+1413,36,Male,144,132,7,Asthma,0
+1414,85,Male,91,95,6,Asthma,0
+1415,19,Male,106,133,1,Heart Disease,0
+1416,19,Male,103,208,5,Diabetes,0
+1417,79,Female,110,148,5,Asthma,0
+1418,25,Female,170,209,1,Diabetes,1
+1419,31,Female,103,200,6,Hypertension,0
+1420,46,Male,119,179,6,Hypertension,0
+1421,54,Male,177,168,1,Asthma,0
+1422,32,Male,103,142,5,Diabetes,0
+1423,33,Female,100,81,2,Hypertension,0
+1424,60,Male,176,178,2,Heart Disease,1
+1425,54,Female,103,139,7,Heart Disease,1
+1426,27,Male,109,107,5,Hypertension,0
+1427,79,Male,104,217,6,Heart Disease,1
+1428,59,Male,113,168,5,Heart Disease,1
+1429,79,Female,167,155,2,Hypertension,0
+1430,81,Female,158,207,3,Asthma,1
+1431,71,Male,179,92,3,Heart Disease,1
+1432,20,Female,161,191,2,Diabetes,0
+1433,62,Female,107,145,7,Hypertension,1
+1434,71,Male,116,127,0,Hypertension,0
+1435,36,Female,93,178,5,Diabetes,1
+1436,27,Female,166,110,0,Hypertension,0
+1437,28,Male,99,73,6,Hypertension,0
+1438,78,Male,157,146,7,Asthma,1
+1439,74,Male,126,98,2,Diabetes,0
+1440,22,Male,154,111,0,Asthma,0
+1441,76,Female,163,198,4,Hypertension,1
+1442,38,Female,101,203,6,Hypertension,1
+1443,69,Male,118,170,2,Pneumonia,1
+1444,27,Female,151,150,6,Asthma,0
+1445,65,Female,114,139,1,Diabetes,0
+1446,60,Male,120,142,2,Pneumonia,0
+1447,45,Male,129,118,8,Hypertension,0
+1448,22,Male,124,91,0,Pneumonia,0
+1449,79,Male,96,150,1,Heart Disease,0
+1450,63,Female,140,198,3,Heart Disease,1
+1451,63,Male,179,94,5,Asthma,1
+1452,82,Male,154,108,0,Pneumonia,1
+1453,79,Male,127,111,2,Asthma,0
+1454,29,Male,117,106,2,Pneumonia,0
+1455,84,Female,147,103,5,Heart Disease,1
+1456,73,Male,177,169,3,Hypertension,1
+1457,27,Male,162,197,1,Diabetes,0
+1458,57,Male,153,94,7,Heart Disease,1
+1459,55,Male,98,141,5,Heart Disease,0
+1460,40,Female,123,191,4,Asthma,1
+1461,35,Male,162,194,0,Heart Disease,1
+1462,69,Female,169,103,7,Heart Disease,1
+1463,58,Female,100,175,8,Asthma,0
+1464,23,Male,121,213,0,Hypertension,0
+1465,55,Female,110,215,6,Diabetes,0
+1466,77,Male,134,189,7,Pneumonia,1
+1467,77,Male,100,116,1,Asthma,0
+1468,43,Female,132,86,5,Heart Disease,1
+1469,80,Male,179,191,1,Heart Disease,1
+1470,37,Female,108,124,5,Pneumonia,0
+1471,66,Male,136,180,7,Hypertension,1
+1472,20,Female,124,134,2,Diabetes,0
+1473,53,Female,100,146,7,Asthma,0
+1474,51,Male,96,93,6,Heart Disease,1
+1475,56,Male,115,159,6,Asthma,0
+1476,38,Female,135,216,6,Diabetes,1
+1477,43,Male,175,218,2,Heart Disease,1
+1478,58,Male,109,187,2,Asthma,0
+1479,32,Female,123,203,0,Asthma,0
+1480,34,Female,171,218,1,Diabetes,0
+1481,42,Female,179,209,2,Pneumonia,1
+1482,62,Male,114,217,0,Heart Disease,1
+1483,20,Female,129,198,1,Asthma,0
+1484,76,Female,142,160,5,Pneumonia,1
+1485,60,Male,112,187,6,Heart Disease,1
+1486,38,Female,138,142,6,Heart Disease,1
+1487,30,Male,103,92,0,Pneumonia,0
+1488,31,Female,169,209,1,Asthma,0
+1489,22,Female,143,124,3,Asthma,0
+1490,32,Male,150,101,5,Asthma,1
+1491,68,Male,137,127,8,Heart Disease,1
+1492,51,Female,143,131,0,Asthma,0
+1493,21,Male,137,202,5,Heart Disease,1
+1494,73,Male,161,170,3,Pneumonia,1
+1495,24,Female,106,169,2,Asthma,0
+1496,84,Male,145,129,1,Hypertension,1
+1497,68,Female,160,110,5,Hypertension,1
+1498,21,Female,91,109,0,Pneumonia,0
+1499,28,Female,93,103,7,Heart Disease,0
+1500,46,Female,114,207,3,Asthma,0
+1501,24,Female,100,106,0,Pneumonia,0
+1502,32,Female,166,101,1,Hypertension,0
+1503,41,Male,99,196,5,Hypertension,0
+1504,80,Male,142,88,7,Diabetes,1
+1505,71,Female,130,185,2,Hypertension,0
+1506,40,Male,105,157,5,Asthma,1
+1507,18,Male,156,135,1,Hypertension,0
+1508,20,Male,117,163,1,Hypertension,0
+1509,35,Male,100,102,4,Heart Disease,1
+1510,29,Female,180,211,4,Asthma,1
+1511,81,Female,155,172,3,Heart Disease,1
+1512,53,Female,103,219,4,Hypertension,1
+1513,80,Female,147,178,4,Heart Disease,1
+1514,67,Female,115,215,5,Heart Disease,1
+1515,26,Female,111,78,8,Heart Disease,1
+1516,55,Female,140,77,1,Hypertension,0
+1517,72,Male,135,132,1,Hypertension,0
+1518,65,Male,130,101,0,Heart Disease,1
+1519,60,Male,149,215,5,Hypertension,1
+1520,67,Female,167,124,8,Hypertension,1
+1521,53,Male,163,177,6,Heart Disease,1
+1522,43,Male,96,196,7,Diabetes,1
+1523,71,Male,105,185,2,Pneumonia,1
+1524,67,Male,163,75,4,Diabetes,1
+1525,18,Female,126,103,6,Diabetes,1
+1526,85,Male,133,74,1,Asthma,0
+1527,71,Female,125,151,5,Asthma,0
+1528,58,Female,168,82,6,Heart Disease,1
+1529,76,Female,172,101,5,Pneumonia,1
+1530,46,Male,91,105,1,Heart Disease,0
+1531,73,Male,111,92,3,Heart Disease,1
+1532,18,Male,123,81,1,Diabetes,0
+1533,27,Female,132,167,4,Hypertension,1
+1534,76,Male,106,151,2,Pneumonia,1
+1535,70,Female,175,101,8,Pneumonia,1
+1536,79,Female,125,152,7,Hypertension,0
+1537,55,Male,135,212,3,Hypertension,0
+1538,27,Female,97,124,0,Hypertension,0
+1539,67,Male,152,96,5,Hypertension,1
+1540,85,Female,129,186,2,Pneumonia,0
+1541,34,Male,136,168,7,Pneumonia,1
+1542,69,Male,98,141,6,Hypertension,1
+1543,31,Male,149,97,1,Hypertension,0
+1544,76,Male,124,77,7,Pneumonia,1
+1545,51,Male,160,91,5,Asthma,0
+1546,68,Female,155,155,0,Asthma,0
+1547,30,Male,173,167,6,Hypertension,1
+1548,69,Male,166,140,8,Pneumonia,1
+1549,73,Male,177,82,3,Diabetes,0
+1550,24,Male,163,138,3,Diabetes,0
+1551,53,Male,169,173,6,Asthma,1
+1552,52,Female,116,113,3,Heart Disease,0
+1553,54,Male,102,117,8,Pneumonia,1
+1554,57,Male,111,150,1,Hypertension,0
+1555,76,Male,91,191,6,Heart Disease,1
+1556,51,Male,111,72,5,Asthma,0
+1557,80,Male,150,98,0,Diabetes,1
+1558,55,Male,157,198,2,Hypertension,1
+1559,30,Female,132,185,7,Heart Disease,1
+1560,50,Female,122,163,7,Diabetes,1
+1561,56,Female,156,193,1,Heart Disease,1
+1562,20,Male,142,126,2,Heart Disease,0
+1563,49,Female,136,122,1,Hypertension,0
+1564,66,Male,125,209,7,Pneumonia,1
+1565,62,Female,140,220,6,Heart Disease,1
+1566,23,Female,168,101,6,Asthma,1
+1567,62,Female,104,72,7,Hypertension,1
+1568,37,Female,169,212,2,Heart Disease,1
+1569,26,Female,91,186,0,Hypertension,0
+1570,33,Male,152,148,0,Asthma,0
+1571,18,Male,122,105,5,Heart Disease,1
+1572,82,Male,101,139,2,Hypertension,0
+1573,28,Female,118,78,7,Heart Disease,0
+1574,67,Female,141,95,4,Heart Disease,1
+1575,40,Female,176,152,2,Hypertension,0
+1576,71,Male,128,148,1,Heart Disease,0
+1577,77,Male,138,181,1,Hypertension,0
+1578,58,Female,149,160,6,Asthma,1
+1579,70,Female,93,213,0,Asthma,0
+1580,35,Female,121,218,8,Heart Disease,1
+1581,55,Male,140,102,6,Diabetes,0
+1582,84,Female,96,91,0,Heart Disease,1
+1583,31,Female,166,94,4,Pneumonia,1
+1584,60,Male,105,219,8,Diabetes,1
+1585,84,Male,161,196,2,Hypertension,1
+1586,37,Female,170,149,0,Asthma,0
+1587,43,Male,98,70,2,Pneumonia,0
+1588,84,Male,121,122,1,Asthma,0
+1589,82,Female,140,84,1,Heart Disease,0
+1590,41,Male,159,136,7,Pneumonia,1
+1591,36,Male,113,106,3,Hypertension,0
+1592,43,Female,151,144,4,Diabetes,1
+1593,81,Female,175,140,6,Asthma,1
+1594,31,Female,143,178,2,Diabetes,0
+1595,33,Female,91,218,4,Diabetes,1
+1596,74,Male,135,105,7,Asthma,0
+1597,38,Female,154,198,3,Heart Disease,1
+1598,85,Female,155,86,2,Hypertension,0
+1599,61,Female,107,141,4,Asthma,0
+1600,79,Female,150,116,8,Pneumonia,1
+1601,59,Female,164,173,1,Diabetes,0
+1602,38,Male,102,97,7,Asthma,0
+1603,47,Male,103,114,6,Asthma,1
+1604,25,Female,104,79,1,Asthma,0
+1605,21,Male,131,97,7,Asthma,0
+1606,43,Male,122,195,7,Heart Disease,1
+1607,38,Female,157,119,1,Pneumonia,0
+1608,30,Male,94,105,0,Heart Disease,0
+1609,27,Female,113,205,7,Hypertension,1
+1610,78,Female,135,213,2,Diabetes,0
+1611,66,Male,162,90,2,Pneumonia,1
+1612,33,Female,119,83,8,Heart Disease,0
+1613,55,Female,139,161,1,Hypertension,0
+1614,27,Male,156,198,4,Asthma,1
+1615,32,Female,123,77,0,Heart Disease,0
+1616,43,Female,97,105,3,Pneumonia,0
+1617,60,Male,120,196,1,Pneumonia,1
+1618,22,Female,99,176,1,Pneumonia,0
+1619,34,Female,95,96,0,Asthma,0
+1620,62,Female,151,147,3,Diabetes,1
+1621,21,Male,158,167,0,Pneumonia,1
+1622,67,Female,179,102,6,Asthma,1
+1623,32,Female,105,164,5,Hypertension,0
+1624,25,Male,119,93,0,Hypertension,0
+1625,23,Male,121,84,1,Diabetes,0
+1626,41,Female,95,150,5,Pneumonia,1
+1627,49,Female,106,171,7,Diabetes,1
+1628,27,Female,159,122,7,Heart Disease,1
+1629,46,Female,128,163,8,Heart Disease,1
+1630,49,Female,130,208,8,Diabetes,0
+1631,70,Female,125,90,3,Hypertension,0
+1632,84,Male,129,211,3,Diabetes,0
+1633,36,Male,120,182,7,Diabetes,0
+1634,22,Female,125,220,6,Heart Disease,1
+1635,28,Male,125,168,7,Diabetes,1
+1636,67,Female,95,127,3,Asthma,0
+1637,73,Male,174,148,0,Pneumonia,1
+1638,21,Female,123,125,0,Heart Disease,0
+1639,73,Female,97,97,8,Asthma,1
+1640,54,Female,144,216,8,Heart Disease,1
+1641,66,Female,120,103,0,Heart Disease,1
+1642,53,Male,121,208,4,Heart Disease,1
+1643,22,Female,136,138,4,Pneumonia,0
+1644,57,Female,123,115,7,Asthma,0
+1645,19,Female,94,161,7,Pneumonia,1
+1646,25,Male,125,211,5,Diabetes,1
+1647,51,Female,123,196,2,Hypertension,0
+1648,36,Male,119,99,0,Hypertension,0
+1649,74,Female,95,211,3,Diabetes,1
+1650,51,Female,92,160,8,Diabetes,0
+1651,62,Male,99,199,7,Diabetes,1
+1652,48,Male,131,216,5,Asthma,0
+1653,72,Female,108,76,5,Pneumonia,1
+1654,60,Female,173,165,7,Heart Disease,1
+1655,38,Female,95,144,2,Pneumonia,0
+1656,45,Female,155,200,5,Hypertension,1
+1657,22,Male,138,90,1,Hypertension,0
+1658,71,Male,157,83,7,Pneumonia,1
+1659,58,Female,114,217,4,Hypertension,0
+1660,64,Male,148,150,1,Hypertension,1
+1661,70,Female,100,160,8,Pneumonia,1
+1662,64,Female,167,128,7,Asthma,1
+1663,34,Male,142,219,2,Pneumonia,1
+1664,54,Female,130,100,1,Asthma,0
+1665,36,Female,170,120,2,Asthma,0
+1666,33,Female,123,211,7,Diabetes,0
+1667,22,Female,93,112,1,Hypertension,0
+1668,85,Female,144,160,2,Asthma,1
+1669,48,Female,105,156,5,Pneumonia,1
+1670,31,Male,99,160,7,Asthma,0
+1671,73,Female,151,104,2,Pneumonia,1
+1672,83,Male,109,71,5,Asthma,1
+1673,74,Male,155,220,4,Diabetes,1
+1674,81,Female,96,214,8,Pneumonia,1
+1675,72,Female,131,168,5,Hypertension,1
+1676,23,Male,145,202,4,Pneumonia,1
+1677,58,Male,134,142,2,Diabetes,0
+1678,80,Female,118,113,4,Heart Disease,1
+1679,31,Male,175,141,2,Diabetes,0
+1680,83,Male,93,80,8,Pneumonia,1
+1681,18,Female,93,164,3,Heart Disease,1
+1682,72,Female,156,102,7,Heart Disease,1
+1683,33,Female,145,196,4,Diabetes,1
+1684,53,Male,135,90,3,Diabetes,0
+1685,82,Female,125,186,8,Diabetes,1
+1686,58,Male,145,95,8,Heart Disease,1
+1687,22,Male,121,105,6,Hypertension,0
+1688,51,Female,109,194,2,Asthma,0
+1689,43,Male,156,124,0,Asthma,0
+1690,44,Male,94,177,4,Pneumonia,1
+1691,48,Female,151,205,2,Heart Disease,1
+1692,55,Female,152,170,5,Pneumonia,1
+1693,30,Male,104,143,6,Asthma,0
+1694,72,Male,112,188,5,Diabetes,1
+1695,68,Male,151,195,6,Hypertension,1
+1696,52,Male,142,85,8,Heart Disease,1
+1697,58,Female,140,183,6,Asthma,0
+1698,24,Female,152,126,5,Diabetes,1
+1699,70,Male,163,112,8,Hypertension,1
+1700,32,Female,106,208,0,Diabetes,0
+1701,29,Female,135,211,1,Diabetes,0
+1702,64,Male,110,207,6,Hypertension,1
+1703,38,Female,132,175,3,Pneumonia,1
+1704,19,Male,92,204,1,Pneumonia,0
+1705,80,Male,110,142,4,Diabetes,0
+1706,49,Male,124,101,6,Asthma,0
+1707,52,Male,99,88,8,Asthma,0
+1708,37,Male,165,170,3,Pneumonia,1
+1709,59,Female,155,75,4,Heart Disease,1
+1710,30,Female,173,217,7,Asthma,1
+1711,29,Male,142,213,4,Asthma,1
+1712,82,Male,138,74,7,Asthma,1
+1713,31,Female,118,217,0,Asthma,0
+1714,75,Female,151,214,1,Heart Disease,1
+1715,28,Male,161,113,3,Asthma,0
+1716,28,Male,141,191,8,Pneumonia,1
+1717,25,Female,122,175,4,Heart Disease,1
+1718,22,Female,178,214,6,Diabetes,1
+1719,44,Female,159,197,5,Hypertension,1
+1720,79,Male,103,178,1,Asthma,0
+1721,19,Male,156,101,2,Hypertension,0
+1722,32,Male,144,196,2,Pneumonia,1
+1723,71,Female,91,145,1,Asthma,0
+1724,52,Female,168,165,2,Hypertension,0
+1725,44,Female,156,134,7,Asthma,0
+1726,60,Male,111,204,7,Diabetes,0
+1727,40,Male,150,87,0,Heart Disease,1
+1728,43,Male,158,187,5,Diabetes,1
+1729,77,Male,98,159,8,Hypertension,1
+1730,19,Male,125,142,6,Pneumonia,1
+1731,65,Female,122,213,8,Hypertension,1
+1732,37,Male,117,141,2,Heart Disease,0
+1733,34,Female,132,217,4,Pneumonia,1
+1734,78,Male,111,70,3,Hypertension,0
+1735,36,Male,111,191,0,Heart Disease,0
+1736,24,Male,155,182,6,Asthma,1
+1737,82,Male,120,213,6,Asthma,1
+1738,78,Female,129,203,5,Pneumonia,1
+1739,45,Male,171,141,2,Asthma,0
+1740,80,Female,177,100,8,Asthma,1
+1741,40,Male,136,189,5,Asthma,0
+1742,42,Female,137,115,0,Hypertension,0
+1743,85,Male,90,220,4,Heart Disease,1
+1744,65,Female,154,73,4,Diabetes,1
+1745,79,Female,95,134,4,Diabetes,1
+1746,21,Female,167,186,7,Hypertension,1
+1747,31,Male,137,77,2,Hypertension,0
+1748,34,Male,143,100,0,Asthma,0
+1749,25,Female,102,209,4,Hypertension,1
+1750,20,Female,176,151,2,Pneumonia,1
+1751,64,Male,175,173,6,Diabetes,1
+1752,82,Male,124,91,2,Asthma,0
+1753,43,Female,112,70,4,Heart Disease,1
+1754,33,Female,149,215,1,Pneumonia,1
+1755,29,Male,101,116,1,Hypertension,0
+1756,20,Male,91,125,5,Asthma,0
+1757,49,Female,177,118,2,Heart Disease,0
+1758,54,Male,125,105,5,Asthma,0
+1759,42,Female,115,115,4,Heart Disease,1
+1760,51,Male,152,160,5,Heart Disease,1
+1761,84,Female,170,113,0,Pneumonia,1
+1762,44,Female,134,143,3,Heart Disease,0
+1763,82,Female,101,201,3,Heart Disease,1
+1764,51,Male,104,202,2,Asthma,0
+1765,59,Female,162,166,0,Heart Disease,1
+1766,63,Male,110,177,7,Heart Disease,1
+1767,30,Male,135,148,2,Asthma,0
+1768,20,Female,168,186,6,Asthma,1
+1769,49,Female,137,156,7,Asthma,0
+1770,47,Male,143,179,4,Pneumonia,1
+1771,21,Male,155,112,4,Pneumonia,1
+1772,85,Male,162,105,2,Heart Disease,1
+1773,24,Male,129,106,5,Asthma,0
+1774,76,Male,174,107,3,Hypertension,0
+1775,28,Male,120,122,6,Diabetes,0
+1776,37,Female,90,192,2,Heart Disease,0
+1777,68,Male,150,166,7,Hypertension,1
+1778,30,Female,106,151,2,Asthma,0
+1779,54,Female,166,170,8,Diabetes,1
+1780,21,Male,167,115,3,Heart Disease,0
+1781,82,Male,168,171,1,Hypertension,1
+1782,42,Male,117,147,6,Diabetes,0
+1783,41,Female,109,142,4,Asthma,0
+1784,79,Male,123,177,2,Hypertension,0
+1785,84,Male,149,91,5,Diabetes,1
+1786,69,Male,110,151,2,Pneumonia,0
+1787,76,Male,152,172,6,Diabetes,1
+1788,51,Male,167,185,8,Heart Disease,1
+1789,60,Female,104,115,6,Pneumonia,1
+1790,28,Male,90,156,4,Hypertension,0
+1791,76,Female,96,188,4,Diabetes,1
+1792,80,Female,136,82,5,Heart Disease,1
+1793,55,Male,159,138,2,Heart Disease,0
+1794,20,Female,131,146,0,Pneumonia,0
+1795,22,Female,121,114,1,Pneumonia,0
+1796,36,Female,145,140,5,Asthma,1
+1797,49,Female,95,89,5,Heart Disease,0
+1798,30,Female,155,90,5,Heart Disease,1
+1799,20,Male,122,90,6,Diabetes,0
+1800,51,Female,168,201,8,Hypertension,1
+1801,24,Female,163,191,3,Asthma,0
+1802,41,Female,154,81,6,Hypertension,1
+1803,52,Male,142,123,0,Asthma,0
+1804,53,Female,149,151,1,Hypertension,0
+1805,59,Male,98,143,7,Pneumonia,0
+1806,60,Female,150,212,0,Heart Disease,1
+1807,62,Female,109,188,7,Hypertension,1
+1808,39,Female,122,173,0,Pneumonia,1
+1809,80,Female,100,123,8,Heart Disease,1
+1810,58,Female,176,189,0,Hypertension,1
+1811,39,Female,162,180,6,Diabetes,1
+1812,54,Female,120,166,8,Hypertension,0
+1813,33,Male,140,125,3,Diabetes,0
+1814,40,Male,141,210,6,Heart Disease,1
+1815,71,Female,130,162,1,Heart Disease,1
+1816,68,Male,141,196,7,Heart Disease,1
+1817,75,Male,112,172,4,Diabetes,1
+1818,60,Female,173,114,1,Asthma,0
+1819,71,Female,142,118,0,Pneumonia,1
+1820,82,Male,166,216,6,Diabetes,1
+1821,49,Male,162,190,1,Heart Disease,0
+1822,67,Male,110,187,5,Hypertension,1
+1823,43,Female,106,145,1,Diabetes,0
+1824,77,Female,121,183,3,Hypertension,1
+1825,82,Male,167,154,2,Hypertension,1
+1826,26,Male,94,174,8,Asthma,1
+1827,27,Female,123,207,1,Pneumonia,0
+1828,21,Female,151,85,4,Asthma,1
+1829,23,Female,141,200,7,Asthma,1
+1830,31,Male,123,218,1,Hypertension,0
+1831,61,Male,121,193,3,Heart Disease,0
+1832,27,Female,180,195,3,Heart Disease,1
+1833,74,Female,147,136,4,Pneumonia,1
+1834,35,Male,156,143,0,Hypertension,0
+1835,64,Female,129,110,4,Asthma,1
+1836,55,Male,178,102,2,Pneumonia,0
+1837,67,Female,171,128,0,Hypertension,1
+1838,36,Male,123,163,8,Pneumonia,1
+1839,39,Female,172,109,8,Heart Disease,1
+1840,66,Female,172,113,8,Asthma,1
+1841,66,Male,175,86,5,Hypertension,1
+1842,46,Male,125,100,3,Heart Disease,0
+1843,19,Male,115,163,0,Asthma,0
+1844,60,Male,124,211,8,Pneumonia,1
+1845,25,Female,162,203,3,Hypertension,0
+1846,41,Male,119,186,2,Diabetes,0
+1847,52,Female,101,118,1,Hypertension,0
+1848,25,Male,119,132,7,Asthma,0
+1849,24,Female,171,88,3,Asthma,0
+1850,28,Female,115,95,8,Pneumonia,0
+1851,80,Female,162,72,6,Diabetes,1
+1852,74,Male,165,186,0,Heart Disease,1
+1853,52,Female,170,115,5,Pneumonia,1
+1854,54,Female,123,206,3,Heart Disease,0
+1855,82,Female,170,182,1,Hypertension,1
+1856,58,Female,153,111,2,Diabetes,0
+1857,56,Male,146,157,8,Hypertension,0
+1858,31,Male,117,148,8,Heart Disease,0
+1859,85,Female,103,146,3,Pneumonia,1
+1860,59,Male,114,171,2,Hypertension,0
+1861,38,Female,156,191,6,Heart Disease,1
+1862,51,Female,128,164,2,Heart Disease,0
+1863,63,Female,147,148,6,Pneumonia,1
+1864,71,Male,141,84,6,Heart Disease,1
+1865,35,Female,125,74,3,Hypertension,0
+1866,50,Female,137,76,5,Asthma,0
+1867,59,Male,117,198,7,Heart Disease,1
+1868,49,Male,131,192,7,Diabetes,1
+1869,67,Female,121,141,6,Diabetes,0
+1870,61,Female,158,164,7,Heart Disease,1
+1871,35,Male,131,175,2,Hypertension,0
+1872,43,Male,146,132,5,Pneumonia,1
+1873,51,Female,178,75,2,Diabetes,0
+1874,58,Female,147,124,2,Heart Disease,0
+1875,76,Female,132,120,4,Heart Disease,1
+1876,20,Male,105,175,6,Asthma,1
+1877,24,Male,155,165,0,Pneumonia,1
+1878,22,Female,158,195,4,Pneumonia,1
+1879,26,Male,162,93,8,Diabetes,1
+1880,83,Male,163,189,3,Diabetes,1
+1881,73,Female,149,185,2,Heart Disease,1
+1882,61,Female,157,180,0,Asthma,1
+1883,18,Female,92,72,3,Heart Disease,0
+1884,51,Male,164,153,8,Asthma,1
+1885,43,Female,163,109,3,Hypertension,0
+1886,41,Male,93,206,0,Hypertension,0
+1887,26,Female,130,128,3,Hypertension,0
+1888,72,Female,119,125,5,Diabetes,0
+1889,74,Male,138,76,7,Hypertension,1
+1890,75,Female,141,120,3,Asthma,1
+1891,33,Male,112,199,8,Diabetes,0
+1892,44,Male,152,161,5,Asthma,1
+1893,29,Female,151,135,8,Diabetes,1
+1894,20,Male,138,177,6,Diabetes,0
+1895,57,Male,145,146,3,Diabetes,0
+1896,67,Female,92,140,5,Diabetes,0
+1897,49,Male,162,72,2,Pneumonia,0
+1898,78,Male,97,123,4,Heart Disease,1
+1899,38,Female,112,114,8,Hypertension,0
+1900,41,Female,104,111,0,Asthma,0
+1901,69,Female,123,152,0,Diabetes,0
+1902,78,Male,108,174,0,Pneumonia,1
+1903,85,Male,110,95,0,Heart Disease,1
+1904,29,Female,98,98,7,Asthma,1
+1905,74,Male,167,70,4,Asthma,1
+1906,50,Male,131,208,5,Pneumonia,1
+1907,30,Female,153,216,3,Hypertension,0
+1908,34,Male,118,91,1,Asthma,0
+1909,31,Male,118,134,2,Heart Disease,0
+1910,77,Female,106,153,6,Heart Disease,1
+1911,22,Female,170,82,3,Hypertension,0
+1912,22,Male,110,171,5,Diabetes,1
+1913,79,Female,114,217,6,Asthma,1
+1914,76,Female,159,182,1,Heart Disease,1
+1915,83,Female,133,117,4,Heart Disease,1
+1916,80,Female,174,94,5,Pneumonia,1
+1917,64,Female,172,76,8,Hypertension,1
+1918,76,Male,105,210,4,Hypertension,1
+1919,57,Female,145,211,1,Pneumonia,1
+1920,83,Male,108,126,0,Hypertension,0
+1921,63,Male,162,205,8,Diabetes,1
+1922,64,Male,178,205,2,Heart Disease,1
+1923,39,Male,109,208,6,Hypertension,0
+1924,69,Female,139,203,6,Asthma,1
+1925,35,Female,90,89,4,Pneumonia,1
+1926,44,Male,97,175,2,Hypertension,0
+1927,38,Male,140,110,6,Asthma,0
+1928,49,Female,99,127,4,Hypertension,1
+1929,33,Male,116,183,2,Heart Disease,1
+1930,19,Male,156,149,8,Diabetes,1
+1931,78,Male,174,182,4,Diabetes,1
+1932,76,Male,99,157,4,Diabetes,1
+1933,50,Male,170,189,6,Pneumonia,1
+1934,80,Female,118,203,1,Diabetes,1
+1935,64,Male,175,196,6,Asthma,1
+1936,31,Female,125,134,8,Heart Disease,0
+1937,50,Female,100,73,1,Asthma,0
+1938,81,Male,165,181,4,Diabetes,1
+1939,80,Female,167,202,6,Diabetes,1
+1940,30,Male,105,131,5,Pneumonia,1
+1941,71,Female,95,158,7,Asthma,1
+1942,84,Male,141,180,0,Hypertension,1
+1943,21,Female,102,144,6,Diabetes,0
+1944,50,Female,177,158,5,Hypertension,0
+1945,24,Female,148,137,2,Hypertension,0
+1946,59,Female,134,114,7,Diabetes,0
+1947,47,Female,129,95,1,Asthma,0
+1948,81,Male,138,121,4,Asthma,1
+1949,74,Female,110,113,5,Diabetes,0
+1950,57,Female,161,207,2,Asthma,1
+1951,27,Male,101,93,6,Heart Disease,0
+1952,61,Female,140,104,6,Diabetes,1
+1953,55,Male,131,127,7,Diabetes,0
+1954,37,Female,93,196,3,Hypertension,0
+1955,46,Female,172,125,2,Diabetes,0
+1956,20,Female,146,176,8,Pneumonia,1
+1957,42,Female,113,202,6,Pneumonia,1
+1958,67,Female,180,163,4,Asthma,1
+1959,48,Female,159,161,1,Hypertension,0
+1960,49,Male,102,199,7,Pneumonia,1
+1961,47,Female,179,211,3,Asthma,0
+1962,24,Female,169,182,7,Pneumonia,1
+1963,39,Male,161,184,8,Diabetes,1
+1964,79,Male,98,160,1,Heart Disease,0
+1965,21,Female,145,104,6,Hypertension,1
+1966,57,Female,132,129,8,Asthma,0
+1967,58,Male,168,83,5,Pneumonia,1
+1968,27,Male,157,175,2,Hypertension,0
+1969,40,Male,93,196,1,Heart Disease,0
+1970,69,Female,142,167,7,Hypertension,1
+1971,41,Male,129,160,2,Asthma,0
+1972,81,Male,113,136,6,Hypertension,0
+1973,28,Female,147,94,8,Heart Disease,1
+1974,25,Male,177,165,1,Hypertension,0
+1975,85,Male,90,153,6,Heart Disease,1
+1976,65,Male,112,118,7,Hypertension,1
+1977,62,Male,177,109,5,Pneumonia,1
+1978,74,Male,154,108,7,Diabetes,1
+1979,33,Female,127,97,5,Hypertension,0
+1980,39,Male,153,119,2,Pneumonia,1
+1981,76,Female,147,99,8,Diabetes,1
+1982,64,Male,120,195,3,Asthma,0
+1983,25,Female,174,95,8,Diabetes,1
+1984,59,Female,159,121,4,Heart Disease,1
+1985,43,Female,170,179,6,Asthma,1
+1986,80,Male,152,96,5,Pneumonia,1
+1987,67,Female,153,143,0,Pneumonia,1
+1988,42,Male,129,220,8,Hypertension,1
+1989,24,Male,96,147,6,Hypertension,0
+1990,24,Female,155,204,2,Pneumonia,1
+1991,23,Male,102,187,2,Hypertension,0
+1992,27,Male,153,122,0,Diabetes,0
+1993,44,Male,127,71,3,Heart Disease,0
+1994,67,Male,137,172,0,Hypertension,0
+1995,49,Female,144,216,4,Hypertension,1
+1996,52,Female,178,72,6,Asthma,1
+1997,42,Female,122,72,6,Diabetes,0
+1998,75,Male,174,127,1,Diabetes,0
+1999,80,Male,113,207,5,Hypertension,1
+2000,50,Female,126,207,4,Heart Disease,1
